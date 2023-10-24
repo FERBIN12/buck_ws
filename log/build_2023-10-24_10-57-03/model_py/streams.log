@@ -1,0 +1,45 @@
+[2.838s] Invoking command in '/home/kanja-koduki/buck_ws/src/model_py': PYTHONPATH=/home/kanja-koduki/buck_ws/build/model_py/prefix_override:/home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/model_py build --build-base /home/kanja-koduki/buck_ws/build/model_py/build install --record /home/kanja-koduki/buck_ws/build/model_py/install.log --single-version-externally-managed
+[3.321s] running egg_info
+[3.321s] creating ../../build/model_py/model_py.egg-info
+[3.362s] writing ../../build/model_py/model_py.egg-info/PKG-INFO
+[3.363s] writing dependency_links to ../../build/model_py/model_py.egg-info/dependency_links.txt
+[3.363s] writing requirements to ../../build/model_py/model_py.egg-info/requires.txt
+[3.363s] writing top-level names to ../../build/model_py/model_py.egg-info/top_level.txt
+[3.363s] writing manifest file '../../build/model_py/model_py.egg-info/SOURCES.txt'
+[3.438s] reading manifest file '../../build/model_py/model_py.egg-info/SOURCES.txt'
+[3.440s] writing manifest file '../../build/model_py/model_py.egg-info/SOURCES.txt'
+[3.440s] running build
+[3.440s] running build_py
+[3.440s] creating /home/kanja-koduki/buck_ws/build/model_py/build
+[3.440s] creating /home/kanja-koduki/buck_ws/build/model_py/build/lib
+[3.440s] creating /home/kanja-koduki/buck_ws/build/model_py/build/lib/model_py
+[3.441s] copying model_py/__init__.py -> /home/kanja-koduki/buck_ws/build/model_py/build/lib/model_py
+[3.441s] running install
+[3.442s] /home/kanja-koduki/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.442s] !!
+[3.442s] 
+[3.442s]         ********************************************************************************
+[3.442s]         Please avoid running ``setup.py`` directly.
+[3.442s]         Instead, use pypa/build, pypa/installer or other
+[3.442s]         standards-based tools.
+[3.442s] 
+[3.443s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.443s]         ********************************************************************************
+[3.443s] 
+[3.443s] !!
+[3.443s]   self.initialize_options()
+[3.454s] running install_lib
+[3.490s] creating /home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages/model_py
+[3.491s] copying /home/kanja-koduki/buck_ws/build/model_py/build/lib/model_py/__init__.py -> /home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages/model_py
+[3.491s] byte-compiling /home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages/model_py/__init__.py to __init__.cpython-310.pyc
+[3.492s] running install_data
+[3.530s] creating /home/kanja-koduki/buck_ws/install/model_py/share/ament_index
+[3.530s] creating /home/kanja-koduki/buck_ws/install/model_py/share/ament_index/resource_index
+[3.530s] creating /home/kanja-koduki/buck_ws/install/model_py/share/ament_index/resource_index/packages
+[3.530s] copying resource/model_py -> /home/kanja-koduki/buck_ws/install/model_py/share/ament_index/resource_index/packages
+[3.531s] copying package.xml -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py
+[3.531s] running install_egg_info
+[3.569s] Copying ../../build/model_py/model_py.egg-info to /home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages/model_py-0.0.0-py3.10.egg-info
+[3.570s] running install_scripts
+[3.920s] writing list of installed files to '/home/kanja-koduki/buck_ws/build/model_py/install.log'
+[3.969s] Invoked command in '/home/kanja-koduki/buck_ws/src/model_py' returned '0': PYTHONPATH=/home/kanja-koduki/buck_ws/build/model_py/prefix_override:/home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/model_py build --build-base /home/kanja-koduki/buck_ws/build/model_py/build install --record /home/kanja-koduki/buck_ws/build/model_py/install.log --single-version-externally-managed

@@ -1,0 +1,42 @@
+[0.381s] Invoking command in '/home/kanja-koduki/buck_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/robot_description -- -j8 -l8
+[0.462s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.931s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.186s] -- Added test 'lint_cmake' to check CMake code style
+[1.189s] -- Added test 'xmllint' to check XML markup files
+[1.191s] -- Configuring done (0.7s)
+[1.199s] -- Generating done (0.0s)
+[1.201s] -- Build files have been written to: /home/kanja-koduki/buck_ws/build/robot_description
+[1.224s] Invoked command in '/home/kanja-koduki/buck_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/robot_description -- -j8 -l8
+[1.378s] Invoking command in '/home/kanja-koduki/buck_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --install /home/kanja-koduki/buck_ws/build/robot_description
+[1.432s] -- Install configuration: ""
+[1.432s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf
+[1.432s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf/rov3.urdf
+[1.432s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf/test2.urdf.xacro
+[1.433s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf/rov.urdf.xacro
+[1.433s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf/test.urdf.xacro
+[1.433s] -- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes
+[1.433s] -- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor8.STL
+[1.445s] -- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor7.STL
+[1.457s] -- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor6.STL
+[1.469s] -- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor2.STL
+[1.495s] -- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor4.STL
+[1.506s] -- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor3.STL
+[1.518s] -- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor1.STL
+[1.530s] -- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/base_link.STL
+[1.530s] -- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor5.STL
+[1.543s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[1.543s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[1.543s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[1.543s] -- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[1.543s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/environment/path.sh
+[1.543s] -- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/environment/path.dsv
+[1.543s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/local_setup.bash
+[1.544s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/local_setup.sh
+[1.544s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/local_setup.zsh
+[1.544s] -- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/local_setup.dsv
+[1.544s] -- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/package.dsv
+[1.544s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[1.544s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[1.544s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[1.544s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/package.xml
+[1.554s] Invoked command in '/home/kanja-koduki/buck_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --install /home/kanja-koduki/buck_ws/build/robot_description

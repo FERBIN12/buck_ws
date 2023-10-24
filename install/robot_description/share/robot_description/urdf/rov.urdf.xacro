@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<robot name="myfirst">
+  <link name="world"/> 
+
+  <link name="base_link">
+    <inertial>
+      <mass value="1.0"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="0.1" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.1"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <box size="0.6 0.6 0.6"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <box size="0.6 0.6 0.6"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="body" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+  </joint>
+
+  <!-- Add thrusters to both sides -->
+  <link name="left_thruster">
+    <!-- Define the visual and collision properties for the thruster -->
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.3 0 0"/> <!-- Adjust the position accordingly -->
+      <geometry>
+        <cylinder radius="0.05" length="0.2"/> <!-- Cylinder shape -->
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.3 0 0"/>
+      <geometry>
+        <cylinder radius="0.05" length="0.2"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="right_thruster">
+    <!-- Define the visual and collision properties for the thruster -->
+    <visual>
+      <origin rpy="0 0 0" xyz="0.3 0 0"/> <!-- Adjust the position accordingly -->
+      <geometry>
+        <cylinder radius="0.05" length="0.2"/> <!-- Cylinder shape -->
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.3 0 0"/>
+      <geometry>
+        <cylinder radius="0.05" length="0.2"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Add joints to connect the thrusters to the base_link -->
+  <joint name="left_thruster_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="left_thruster"/>
+    <origin rpy="0 0 0" xyz="-0.3 0 0"/>
+  </joint>
+
+  <joint name="right_thruster_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="right_thruster"/>
+    <origin rpy="0 0 0" xyz="0.3 0 0"/>
+  </joint>
+</robot>
