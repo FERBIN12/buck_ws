@@ -46,18 +46,18 @@
         <visual>
             <origin xyz="0.135 0 0.052885"/>
             <geometry>
-                <box size="0.27 0.168 0.10577"/>
+                <box size="1.5 1 0.6"/>
             </geometry>
             <material name="white"/>
         </visual>
         <collision>
             <origin xyz="0.135 0 0.052885"/>
             <geometry>
-                <box size="0.27 0.168 0.10577"/>
+                <box size="1.5 1 0.6"/>
             </geometry>
         </collision>
 
-        <xacro:inertial_box mass="0.750" x="0.27" y="0.168" z="0.10577">
+        <xacro:inertial_box mass="70" x="0.27" y="0.168" z="0.10577">
             <origin xyz="0.135 0 0.052885" rpy="0 0 0"/>
         
         </xacro:inertial_box>
@@ -73,23 +73,23 @@
     <joint name="left_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="left_wheel"/>
-        <origin xyz="0.12 0.0965 0" rpy="-${pi/2} 0 0"/>  <!-- we are rotating the whole bot 90 degrees wrt x axis..-->
+        <origin xyz="0.3 0.4 -0.25" rpy="-${pi/2} 0 0"/>  <!-- we are rotating the whole bot 90 degrees wrt x axis..-->
         <axis xyz="0 0 1"/>
     </joint>
 
     <link name="left_wheel">
         <visual>
             <geometry>
-                <cylinder radius="0.04" length="0.025"/>              
+                <cylinder radius="0.25" length="0.130"/>              
             </geometry>
             <material name="black"/>
         </visual>
         <collision>
             <geometry>    
-                <sphere radius="0.04"/>              
+                <sphere radius="0.25"/>              
             </geometry>
         </collision>
-        <xacro:inertial_cylinder mass="0.1" length="0.025" radius="0.04">
+        <xacro:inertial_cylinder mass="3" length="0.130" radius="0.25">
             <origin xyz = "0 0 0" rpy = "0 0 0 "/>
         </xacro:inertial_cylinder>
         </link>
@@ -105,24 +105,24 @@
     <joint name="right_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="right_wheel"/>
-        <origin xyz="0.12 -0.0965 0" rpy="${pi/2} 0 0"/>  <!-- we are rotating the whole bot 90 degrees wrt x axis..-->
+        <origin xyz="0.3 -0.4 -0.25" rpy="${pi/2} 0 0"/>  <!-- we are rotating the whole bot 90 degrees wrt x axis..-->
         <axis xyz="0 0 -1"/>
     </joint>
 
     <link name="right_wheel">
         <visual>
             <geometry>
-                <cylinder radius="0.04" length="0.025"/>         
+                <cylinder radius="0.25" length="0.130"/>         
             </geometry>
             <material name="black"/>
         </visual>
         <collision>
             <geometry>
-                <sphere radius="0.04"/>         
+                <sphere radius="0.25"/>         
             </geometry>
             <material name="black"/>
         </collision>
-        <xacro:inertial_cylinder mass="0.1" length="0.025" radius="0.04">
+        <xacro:inertial_cylinder mass="3" length="0.130" radius="0.25">
             <origin xyz = "0 0 0" rpy = "0 0 0 "/>
         </xacro:inertial_cylinder>
     </link>
@@ -135,23 +135,23 @@
     <joint name="caster_wheel_left_joint" type="fixed">
         <parent link="chassis"/>
         <child link="caster_wheel_left"/>
-        <origin xyz="0.035 0 0"/>
+        <origin xyz="-0.35 0 -0.3"/>
     </joint>
 
     <link name="caster_wheel_left">
         <visual>
             <geometry>
-                <sphere radius="0.04"/>            
+                <sphere radius="0.2"/>            
             </geometry>      
-            <material name="orange"/>
+            <material name="black"/>
         </visual>
         <collision>
             <geometry>
-                <sphere radius="0.04"/>            
+                <sphere radius="0.2"/>            
             </geometry>      
-            <material name="orange"/>
+            <material name="black"/>
         </collision>
-        <xacro:inertial_sphere mass="0.05" radius="0.04">
+        <xacro:inertial_sphere mass="1" radius="0.2">
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_sphere>
     </link>
