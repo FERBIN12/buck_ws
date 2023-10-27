@@ -1,4 +1,6 @@
+/home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages/model_py/test.py
 /home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages/model_py/__init__.py
+/home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages/model_py/__pycache__/test.cpython-310.pyc
 /home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages/model_py/__pycache__/__init__.cpython-310.pyc
 /home/kanja-koduki/buck_ws/install/model_py/share/ament_index/resource_index/packages/model_py
 /home/kanja-koduki/buck_ws/install/model_py/share/model_py/package.xml
@@ -7,6 +9,7 @@
 /home/kanja-koduki/buck_ws/install/model_py/share/model_py/world/test.world
 /home/kanja-koduki/buck_ws/install/model_py/share/model_py/world/empty.world
 /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf/gazebo_control.xacro
+/home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf/ir.urdf.xacro
 /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf/run.urdf.xacro
 /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf/lidar.urdf.xacro
 /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf/inertial.urdf.xacro

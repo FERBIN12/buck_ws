@@ -1,0 +1,9 @@
+/home/kanja-koduki/buck_ws/build/my_point_cloud_publisher/CMakeFiles/uninstall.dir
+/home/kanja-koduki/buck_ws/build/my_point_cloud_publisher/CMakeFiles/my_point_cloud_publisher_uninstall.dir
+/home/kanja-koduki/buck_ws/build/my_point_cloud_publisher/CMakeFiles/test.dir
+/home/kanja-koduki/buck_ws/build/my_point_cloud_publisher/CMakeFiles/edit_cache.dir
+/home/kanja-koduki/buck_ws/build/my_point_cloud_publisher/CMakeFiles/rebuild_cache.dir
+/home/kanja-koduki/buck_ws/build/my_point_cloud_publisher/CMakeFiles/list_install_components.dir
+/home/kanja-koduki/buck_ws/build/my_point_cloud_publisher/CMakeFiles/install.dir
+/home/kanja-koduki/buck_ws/build/my_point_cloud_publisher/CMakeFiles/install/local.dir
+/home/kanja-koduki/buck_ws/build/my_point_cloud_publisher/CMakeFiles/install/strip.dir

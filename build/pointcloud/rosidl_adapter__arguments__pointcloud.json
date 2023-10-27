@@ -1,0 +1,6 @@
+{
+  "package_name": "pointcloud",
+  "non_idl_tuples": [
+    "/home/kanja-koduki/buck_ws/src/pointcloud:msg/PointCloud.msg"
+  ]
+}

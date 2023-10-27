@@ -1,0 +1,4 @@
+source;share/pointcloud/environment/ament_prefix_path.sh
+source;share/pointcloud/environment/library_path.sh
+source;share/pointcloud/environment/path.sh
+source;share/pointcloud/environment/pythonpath.sh

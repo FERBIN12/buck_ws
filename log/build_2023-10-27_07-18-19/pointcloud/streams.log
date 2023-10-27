@@ -1,0 +1,52 @@
+[0.165s] Invoking command in '/home/kanja-koduki/buck_ws/build/pointcloud': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/pointcloud -- -j8 -l8
+[0.193s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.359s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.362s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.364s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.390s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.576s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.576s]   execute_process(/usr/bin/python3.12 -m rosidl_adapter --package-name
+[0.576s]   pointcloud --arguments-file
+[0.576s]   /home/kanja-koduki/buck_ws/build/pointcloud/rosidl_adapter__arguments__pointcloud.json
+[0.576s]   --output-dir
+[0.576s]   /home/kanja-koduki/buck_ws/build/pointcloud/rosidl_adapter/pointcloud
+[0.576s]   --output-file
+[0.576s]   /home/kanja-koduki/buck_ws/build/pointcloud/rosidl_adapter/pointcloud.idls)
+[0.576s]   returned error code 1:
+[0.576s] 
+[0.576s]   Traceback (most recent call last):
+[0.576s] 
+[0.576s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.576s]     File "<frozen runpy>", line 88, in _run_code
+[0.576s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.576s]       sys.exit(main())
+[0.576s]                ^^^^^^
+[0.576s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.576s]       abs_idl_file = convert_to_idl(
+[0.576s]                      ^^^^^^^^^^^^^^^
+[0.576s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.577s]       return convert_msg_to_idl(
+[0.577s]              ^^^^^^^^^^^^^^^^^^^
+[0.577s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.577s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.577s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.577s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[0.577s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.577s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.577s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[0.577s]       self.base_type = BaseType(
+[0.577s]                        ^^^^^^^^^
+[0.577s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.577s]       raise InvalidResourceName(
+[0.577s] 
+[0.577s]   rosidl_adapter.parser.InvalidResourceName: 'pointcloud' is an invalid
+[0.577s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.577s] 
+[0.577s] Call Stack (most recent call first):
+[0.577s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.577s]   CMakeLists.txt:11 (rosidl_generate_interfaces)
+[0.577s] 
+[0.577s] [0m
+[0.577s] -- Configuring incomplete, errors occurred!
+[0.579s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.583s] Invoked command in '/home/kanja-koduki/buck_ws/build/pointcloud' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/pointcloud -- -j8 -l8

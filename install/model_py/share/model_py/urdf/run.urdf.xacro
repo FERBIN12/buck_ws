@@ -10,6 +10,8 @@
 
     <!-- <xacro:include filename="lidar.urdf.xacro" /> -->
 
+    <xacro:include filename="ir.urdf.xacro" />
+
 
     <!-- <xacro:if value="$(arg use_ros2_control)">
         <xacro:include filename="ros2_control.xacro" />

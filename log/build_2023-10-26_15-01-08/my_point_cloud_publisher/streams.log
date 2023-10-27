@@ -1,0 +1,29 @@
+[1.730s] Invoking command in '/home/kanja-koduki/buck_ws/build/my_point_cloud_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/my_point_cloud_publisher -- -j8 -l8
+[1.811s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.303s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.599s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.600s] -- Added test 'lint_cmake' to check CMake code style
+[2.600s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.602s] -- Added test 'xmllint' to check XML markup files
+[2.603s] -- Configuring done (0.8s)
+[2.609s] -- Generating done (0.0s)
+[2.611s] -- Build files have been written to: /home/kanja-koduki/buck_ws/build/my_point_cloud_publisher
+[2.636s] Invoked command in '/home/kanja-koduki/buck_ws/build/my_point_cloud_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/my_point_cloud_publisher -- -j8 -l8
+[2.730s] Invoking command in '/home/kanja-koduki/buck_ws/build/my_point_cloud_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --install /home/kanja-koduki/buck_ws/build/my_point_cloud_publisher
+[2.788s] -- Install configuration: ""
+[2.788s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/my_point_cloud_publisher/share/ament_index/resource_index/package_run_dependencies/my_point_cloud_publisher
+[2.788s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/my_point_cloud_publisher/share/ament_index/resource_index/parent_prefix_path/my_point_cloud_publisher
+[2.788s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/my_point_cloud_publisher/share/my_point_cloud_publisher/environment/ament_prefix_path.sh
+[2.789s] -- Installing: /home/kanja-koduki/buck_ws/install/my_point_cloud_publisher/share/my_point_cloud_publisher/environment/ament_prefix_path.dsv
+[2.789s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/my_point_cloud_publisher/share/my_point_cloud_publisher/environment/path.sh
+[2.789s] -- Installing: /home/kanja-koduki/buck_ws/install/my_point_cloud_publisher/share/my_point_cloud_publisher/environment/path.dsv
+[2.789s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/my_point_cloud_publisher/share/my_point_cloud_publisher/local_setup.bash
+[2.789s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/my_point_cloud_publisher/share/my_point_cloud_publisher/local_setup.sh
+[2.789s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/my_point_cloud_publisher/share/my_point_cloud_publisher/local_setup.zsh
+[2.789s] -- Installing: /home/kanja-koduki/buck_ws/install/my_point_cloud_publisher/share/my_point_cloud_publisher/local_setup.dsv
+[2.790s] -- Installing: /home/kanja-koduki/buck_ws/install/my_point_cloud_publisher/share/my_point_cloud_publisher/package.dsv
+[2.790s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/my_point_cloud_publisher/share/ament_index/resource_index/packages/my_point_cloud_publisher
+[2.790s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/my_point_cloud_publisher/share/my_point_cloud_publisher/cmake/my_point_cloud_publisherConfig.cmake
+[2.790s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/my_point_cloud_publisher/share/my_point_cloud_publisher/cmake/my_point_cloud_publisherConfig-version.cmake
+[2.790s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/my_point_cloud_publisher/share/my_point_cloud_publisher/package.xml
+[2.801s] Invoked command in '/home/kanja-koduki/buck_ws/build/my_point_cloud_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --install /home/kanja-koduki/buck_ws/build/my_point_cloud_publisher

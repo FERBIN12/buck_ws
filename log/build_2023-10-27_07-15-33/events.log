@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000208] (-) JobUnselected: {'identifier': 'model_py'}
+[0.000232] (-) JobUnselected: {'identifier': 'my_point'}
+[0.000245] (-) JobUnselected: {'identifier': 'pointcloud'}
+[0.000255] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000267] (-) EventReactorShutdown: {}

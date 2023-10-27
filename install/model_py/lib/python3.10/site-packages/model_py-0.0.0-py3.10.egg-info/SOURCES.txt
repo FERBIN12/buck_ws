@@ -10,12 +10,14 @@ setup.py
 launch/launch_sim.launch.py
 launch/rsp.launch.py
 model_py/__init__.py
+model_py/test.py
 resource/model_py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 urdf/gazebo_control.xacro
 urdf/inertial.urdf.xacro
+urdf/ir.urdf.xacro
 urdf/lidar.urdf.xacro
 urdf/robot_core.urdf.xacro
 urdf/run.urdf.xacro

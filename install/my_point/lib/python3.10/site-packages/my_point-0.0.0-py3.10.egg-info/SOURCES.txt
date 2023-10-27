@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/my_point/my_point.egg-info/PKG-INFO
+../../build/my_point/my_point.egg-info/SOURCES.txt
+../../build/my_point/my_point.egg-info/dependency_links.txt
+../../build/my_point/my_point.egg-info/entry_points.txt
+../../build/my_point/my_point.egg-info/requires.txt
+../../build/my_point/my_point.egg-info/top_level.txt
+../../build/my_point/my_point.egg-info/zip-safe
+my_point/__init__.py
+my_point/base_link.py
+my_point/point_pub.py
+resource/my_point
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

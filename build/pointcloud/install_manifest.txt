@@ -1,0 +1,15 @@
+/home/kanja-koduki/buck_ws/install/pointcloud/share/ament_index/resource_index/package_run_dependencies/pointcloud
+/home/kanja-koduki/buck_ws/install/pointcloud/share/ament_index/resource_index/parent_prefix_path/pointcloud
+/home/kanja-koduki/buck_ws/install/pointcloud/share/pointcloud/environment/ament_prefix_path.sh
+/home/kanja-koduki/buck_ws/install/pointcloud/share/pointcloud/environment/ament_prefix_path.dsv
+/home/kanja-koduki/buck_ws/install/pointcloud/share/pointcloud/environment/path.sh
+/home/kanja-koduki/buck_ws/install/pointcloud/share/pointcloud/environment/path.dsv
+/home/kanja-koduki/buck_ws/install/pointcloud/share/pointcloud/local_setup.bash
+/home/kanja-koduki/buck_ws/install/pointcloud/share/pointcloud/local_setup.sh
+/home/kanja-koduki/buck_ws/install/pointcloud/share/pointcloud/local_setup.zsh
+/home/kanja-koduki/buck_ws/install/pointcloud/share/pointcloud/local_setup.dsv
+/home/kanja-koduki/buck_ws/install/pointcloud/share/pointcloud/package.dsv
+/home/kanja-koduki/buck_ws/install/pointcloud/share/ament_index/resource_index/packages/pointcloud
+/home/kanja-koduki/buck_ws/install/pointcloud/share/pointcloud/cmake/pointcloudConfig.cmake
+/home/kanja-koduki/buck_ws/install/pointcloud/share/pointcloud/cmake/pointcloudConfig-version.cmake
+/home/kanja-koduki/buck_ws/install/pointcloud/share/pointcloud/package.xml
