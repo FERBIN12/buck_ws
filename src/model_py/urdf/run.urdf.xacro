@@ -10,7 +10,9 @@
 
     <!-- <xacro:include filename="lidar.urdf.xacro" /> -->
 
-    <xacro:include filename="ir.urdf.xacro" />
+    <!-- <xacro:include filename="ir.urdf.xacro" /> -->
+    <xacro:include filename="lidar3d.urdf.xacro" />
+
 
 
     <!-- <xacro:if value="$(arg use_ros2_control)">
@@ -21,7 +23,7 @@
     </xacro:unless>
     <xacro:include filename="lidar.xacro" />
     <<xacro:include filename="camera.xacro" /> -->
-    <!-- <xacro:include filename="depth_camera.xacro" />  -->
+    <!-- <xacro:include filename="depthcamera.urdf.xacro" />  -->
 
     <!-- <xacro:include filename="face.xacro" /> -->
     

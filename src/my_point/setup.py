@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'point_node = my_point.point_pub:main',
-            'base_link_publisher=my_point.base_link:main'
+            'base_link_publisher=my_point.base_link:main',
+            
         ],
     },
 )

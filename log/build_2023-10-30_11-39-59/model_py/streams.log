@@ -1,0 +1,33 @@
+[4.665s] Invoking command in '/home/kanja-koduki/buck_ws/src/model_py': PYTHONPATH=/home/kanja-koduki/buck_ws/build/model_py/prefix_override:/home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/model_py build --build-base /home/kanja-koduki/buck_ws/build/model_py/build install --record /home/kanja-koduki/buck_ws/build/model_py/install.log --single-version-externally-managed
+[5.174s] running egg_info
+[5.218s] writing ../../build/model_py/model_py.egg-info/PKG-INFO
+[5.219s] writing dependency_links to ../../build/model_py/model_py.egg-info/dependency_links.txt
+[5.220s] writing requirements to ../../build/model_py/model_py.egg-info/requires.txt
+[5.220s] writing top-level names to ../../build/model_py/model_py.egg-info/top_level.txt
+[5.312s] reading manifest file '../../build/model_py/model_py.egg-info/SOURCES.txt'
+[5.317s] writing manifest file '../../build/model_py/model_py.egg-info/SOURCES.txt'
+[5.317s] /home/kanja-koduki/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[5.317s] !!
+[5.317s] 
+[5.317s]         ********************************************************************************
+[5.318s]         Please avoid running ``setup.py`` directly.
+[5.318s]         Instead, use pypa/build, pypa/installer or other
+[5.318s]         standards-based tools.
+[5.318s] 
+[5.318s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[5.318s]         ********************************************************************************
+[5.319s] 
+[5.319s] !!
+[5.319s]   self.initialize_options()
+[5.319s] running build
+[5.320s] running build_py
+[5.320s] running install
+[5.333s] running install_lib
+[5.384s] running install_data
+[5.429s] copying urdf/lidar3d.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+[5.430s] running install_egg_info
+[5.479s] removing '/home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages/model_py-0.0.0-py3.10.egg-info' (and everything under it)
+[5.480s] Copying ../../build/model_py/model_py.egg-info to /home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages/model_py-0.0.0-py3.10.egg-info
+[5.482s] running install_scripts
+[5.906s] writing list of installed files to '/home/kanja-koduki/buck_ws/build/model_py/install.log'
+[6.117s] Invoked command in '/home/kanja-koduki/buck_ws/src/model_py' returned '0': PYTHONPATH=/home/kanja-koduki/buck_ws/build/model_py/prefix_override:/home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/model_py build --build-base /home/kanja-koduki/buck_ws/build/model_py/build install --record /home/kanja-koduki/buck_ws/build/model_py/install.log --single-version-externally-managed

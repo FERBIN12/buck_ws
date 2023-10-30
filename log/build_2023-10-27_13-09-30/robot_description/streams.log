@@ -1,0 +1,37 @@
+[2.191s] Invoking command in '/home/kanja-koduki/buck_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/robot_description -- -j8 -l8
+[2.286s] Invoked command in '/home/kanja-koduki/buck_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/robot_description -- -j8 -l8
+[2.456s] Invoking command in '/home/kanja-koduki/buck_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --install /home/kanja-koduki/buck_ws/build/robot_description
+[2.519s] -- Install configuration: ""
+[2.519s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf
+[2.519s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf/run.urdf.xacro
+[2.520s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf/lidar.urdf.xacro
+[2.520s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf/inertial.urdf.xacro
+[2.520s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf/test2.urdf.xacro
+[2.520s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf/robot_core.urdf.xacro
+[2.521s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf/test.urdf.xacro
+[2.521s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes
+[2.521s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor8.STL
+[2.521s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor7.STL
+[2.521s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor6.STL
+[2.522s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor2.STL
+[2.522s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor4.STL
+[2.522s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor3.STL
+[2.522s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor1.STL
+[2.522s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/base_link.STL
+[2.523s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor5.STL
+[2.523s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[2.523s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[2.523s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[2.523s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[2.524s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/environment/path.sh
+[2.524s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/environment/path.dsv
+[2.524s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/local_setup.bash
+[2.524s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/local_setup.sh
+[2.524s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/local_setup.zsh
+[2.525s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/local_setup.dsv
+[2.525s] -- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/package.dsv
+[2.525s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[2.525s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[2.525s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[2.526s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/package.xml
+[2.531s] Invoked command in '/home/kanja-koduki/buck_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --install /home/kanja-koduki/buck_ws/build/robot_description

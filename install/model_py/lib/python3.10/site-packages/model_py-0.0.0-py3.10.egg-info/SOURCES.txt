@@ -15,13 +15,17 @@ resource/model_py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+urdf/depthcamera.urdf.xacro
 urdf/gazebo_control.xacro
 urdf/inertial.urdf.xacro
 urdf/ir.urdf.xacro
 urdf/lidar.urdf.xacro
+urdf/lidar3d.urdf.xacro
 urdf/robot_core.urdf.xacro
 urdf/run.urdf.xacro
 urdf/test.urdf.xacro
 urdf/test2.urdf.xacro
 world/empty.world
+world/simple.world
 world/test.world
+world/trial.world
