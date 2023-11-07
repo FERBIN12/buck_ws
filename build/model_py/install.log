@@ -26,6 +26,7 @@
 /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf/lidar3d.urdf.xacro
 /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf/test.urdf.xacro
 /home/kanja-koduki/buck_ws/install/model_py/share/model_py/config/mapper_params_online_async.yaml
+/home/kanja-koduki/buck_ws/install/model_py/share/model_py/config/rtabmap.yaml
 /home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages/model_py-0.0.0-py3.10.egg-info/requires.txt
 /home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages/model_py-0.0.0-py3.10.egg-info/entry_points.txt
 /home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages/model_py-0.0.0-py3.10.egg-info/dependency_links.txt

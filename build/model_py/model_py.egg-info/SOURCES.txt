@@ -9,6 +9,7 @@ setup.py
 ../../build/model_py/model_py.egg-info/top_level.txt
 ../../build/model_py/model_py.egg-info/zip-safe
 config/mapper_params_online_async.yaml
+config/rtabmap.yaml
 launch/launch_sim.launch.py
 launch/rsp.launch.py
 launch/test.launch.py

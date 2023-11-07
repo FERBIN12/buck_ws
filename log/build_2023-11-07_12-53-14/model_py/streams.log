@@ -1,0 +1,29 @@
+[2.442s] Invoking command in '/home/kanja-koduki/buck_ws/src/model_py': PYTHONPATH=/home/kanja-koduki/buck_ws/build/model_py/prefix_override:/home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/model_py build --build-base /home/kanja-koduki/buck_ws/build/model_py/build install --record /home/kanja-koduki/buck_ws/build/model_py/install.log --single-version-externally-managed
+[2.738s] running egg_info
+[2.766s] writing ../../build/model_py/model_py.egg-info/PKG-INFO
+[2.767s] writing dependency_links to ../../build/model_py/model_py.egg-info/dependency_links.txt
+[2.768s] writing entry points to ../../build/model_py/model_py.egg-info/entry_points.txt
+[2.768s] writing requirements to ../../build/model_py/model_py.egg-info/requires.txt
+[2.769s] writing top-level names to ../../build/model_py/model_py.egg-info/top_level.txt
+[2.827s] reading manifest file '../../build/model_py/model_py.egg-info/SOURCES.txt'
+[2.829s] writing manifest file '../../build/model_py/model_py.egg-info/SOURCES.txt'
+[2.829s] running build
+[2.829s] running build_py
+[2.830s] running install
+[2.830s] /home/kanja-koduki/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.830s] !!
+[2.830s] 
+[2.830s]         ********************************************************************************
+[2.830s]         Please avoid running ``setup.py`` directly.
+[2.830s]         Instead, use pypa/build, pypa/installer or other
+[2.831s]         standards-based tools.
+[2.831s] 
+[2.831s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.831s]         ********************************************************************************
+[2.831s] 
+[2.831s] !!
+[2.831s]   self.initialize_options()
+[2.837s] running install_lib
+[2.861s] running install_data
+[2.887s] error: can't copy 'config/log': doesn't exist or not a regular file
+[2.916s] Invoked command in '/home/kanja-koduki/buck_ws/src/model_py' returned '1': PYTHONPATH=/home/kanja-koduki/buck_ws/build/model_py/prefix_override:/home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/model_py build --build-base /home/kanja-koduki/buck_ws/build/model_py/build install --record /home/kanja-koduki/buck_ws/build/model_py/install.log --single-version-externally-managed
