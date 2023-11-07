@@ -1,0 +1,2 @@
+[console_scripts]
+laser_frame_publisher = model_py.frame:main

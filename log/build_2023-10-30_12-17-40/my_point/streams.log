@@ -1,0 +1,39 @@
+[4.043s] Invoking command in '/home/kanja-koduki/buck_ws/src/my_point': PYTHONPATH=/home/kanja-koduki/buck_ws/build/my_point/prefix_override:/home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_point build --build-base /home/kanja-koduki/buck_ws/build/my_point/build install --record /home/kanja-koduki/buck_ws/build/my_point/install.log --single-version-externally-managed
+[4.545s] running egg_info
+[4.584s] writing ../../build/my_point/my_point.egg-info/PKG-INFO
+[4.585s] writing dependency_links to ../../build/my_point/my_point.egg-info/dependency_links.txt
+[4.586s] writing entry points to ../../build/my_point/my_point.egg-info/entry_points.txt
+[4.587s] writing requirements to ../../build/my_point/my_point.egg-info/requires.txt
+[4.587s] writing top-level names to ../../build/my_point/my_point.egg-info/top_level.txt
+[4.669s] reading manifest file '../../build/my_point/my_point.egg-info/SOURCES.txt'
+[4.672s] writing manifest file '../../build/my_point/my_point.egg-info/SOURCES.txt'
+[4.673s] running build
+[4.673s] running build_py
+[4.674s] copying my_point/pointthree_pub.py -> /home/kanja-koduki/buck_ws/build/my_point/build/lib/my_point
+[4.677s] running install
+[4.677s] /home/kanja-koduki/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.677s] !!
+[4.677s] 
+[4.677s]         ********************************************************************************
+[4.677s]         Please avoid running ``setup.py`` directly.
+[4.678s]         Instead, use pypa/build, pypa/installer or other
+[4.678s]         standards-based tools.
+[4.678s] 
+[4.678s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.678s]         ********************************************************************************
+[4.678s] 
+[4.679s] !!
+[4.679s]   self.initialize_options()
+[4.695s] running install_lib
+[4.743s] copying /home/kanja-koduki/buck_ws/build/my_point/build/lib/my_point/pointthree_pub.py -> /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point
+[4.745s] byte-compiling /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/pointthree_pub.py to pointthree_pub.cpython-310.pyc
+[4.747s] running install_data
+[4.784s] running install_egg_info
+[4.833s] removing '/home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point-0.0.0-py3.10.egg-info' (and everything under it)
+[4.833s] Copying ../../build/my_point/my_point.egg-info to /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point-0.0.0-py3.10.egg-info
+[4.835s] running install_scripts
+[5.214s] Installing base_link_publisher script to /home/kanja-koduki/buck_ws/install/my_point/lib/my_point
+[5.214s] Installing lidar_publisher script to /home/kanja-koduki/buck_ws/install/my_point/lib/my_point
+[5.215s] Installing point_node script to /home/kanja-koduki/buck_ws/install/my_point/lib/my_point
+[5.216s] writing list of installed files to '/home/kanja-koduki/buck_ws/build/my_point/install.log'
+[5.268s] Invoked command in '/home/kanja-koduki/buck_ws/src/my_point' returned '0': PYTHONPATH=/home/kanja-koduki/buck_ws/build/my_point/prefix_override:/home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_point build --build-base /home/kanja-koduki/buck_ws/build/my_point/build install --record /home/kanja-koduki/buck_ws/build/my_point/install.log --single-version-externally-managed

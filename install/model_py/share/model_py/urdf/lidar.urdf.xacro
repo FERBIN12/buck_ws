@@ -1,73 +1,62 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
-  <!-- Define your robot's transmission, joints, and other components here -->
+    <joint name="laser_joint" type="fixed">
+        <parent link="chassis"/>
+        <child link="laser_frame"/>
+        <origin xyz="0.215 0 0.11" rpy="0 0 0"/>
+    
+    </joint>
 
-  <!-- Define the lidar joint -->
-  <joint name="lidar_joint" type="fixed">
-    <parent link="chassis"/>
-    <child link="lidar_frame"/>
-    <origin xyz="0.87 0 0.38" rpy="0 0 0"/>
-  </joint>
+    <link name="laser_frame">
+        <visual>
+            <geometry>
+                <cylinder radius="0.035" length="0.04"/>              
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>    
+                <cylinder radius="0.035" length="0.04"/>              
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.035">
+            <origin xyz = "0 0 0" rpy = "0 0 0 "/>
+        </xacro:inertial_cylinder>
+    </link>   
 
-  <!-- Define the lidar frame link -->
-  <link name="lidar_frame">
-    <visual>
-      <geometry>
-        <cylinder radius="0.035" length="0.04"/>
-      </geometry>
-      <material name="Gazebo/Black"/> <!-- Updated material name -->
-    </visual>
-    <collision>
-      <geometry>
-        <cylinder radius="0.035" length="0.04"/>
-      </geometry>
-    </collision>
-    <inertial>
-      <mass value="0.1"/>
-      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
-    </inertial>
-  </link>
 
-  <!-- Define the lidar sensor in Gazebo -->
-  <gazebo reference="lidar_frame">
-    <material>Gazebo/Black</material>
+     <gazebo reference="laser_frame">
+        <material>Gazebo/Black</material>
 
-    <!-- Define the lidar sensor -->
-    <sensor name="lidar" type="gpu_ray" always_on="true">
-      <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
-      <update_rate>10</update_rate>
-      <ray>
-        <scan>
-          <horizontal>
-            <samples>360</samples>
-            <min_angle>-3.14</min_angle>
-            <max_angle>3.14</max_angle>
-          </horizontal>
-          <vertical>
-            <samples>16</samples>
-            <min_angle>-0.5</min_angle>
-            <max_angle>0.5</max_angle>
-          </vertical>
-        </scan>
-        <range>
-          <min>0.3</min>
-          <max>12</max>
-        </range>
-      </ray>
+        <sensor name="laser" type="ray">
+            <pose> 0 0 0 0 0 0 </pose>
+            <visualize>true</visualize>
+            <update_rate>10</update_rate>
+            <ray>
+                <scan>
+                    <horizontal>
+                        <samples>360</samples>
+                        <min_angle>-3.14</min_angle>
+                        <max_angle>3.14</max_angle>
+                    </horizontal>
+                </scan>
+                <range>
+                    <min>0.3</min>
+                    <max>12</max>
+                </range>
+            </ray>
+            <plugin name="laser_controller" 
+            filename="libgazebo_ros_ray_sensor.so">
+                <ros>
+                    <argument>~/out:=scan</argument>
+                </ros>
+                <output_type>sensor_msgs/LaserScan</output_type>
+                <frame_name>laser_frame</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo>
 
-      <!-- Use <gazebo_ros> tag to specify Gazebo ROS plugin -->
-      <plugin name="lidar_controller" filename="libgazebo_ros_gpu_laser.so">
-        <ros>
-          <arguments>
-            <!-- Use <param> to specify parameters for the plugin -->
-            <param name="frame_name" value="lidar_frame"/>
-            <param name="output_topic" value="scan"/>
-          </arguments>
-        </ros>
-        <output_type>sensor_msgs/LaserScan</output_type>
-      </plugin>
-    </sensor>
-  </gazebo>
+
+
 </robot>

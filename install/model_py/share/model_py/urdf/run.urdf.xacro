@@ -6,12 +6,15 @@
     <xacro:include filename="robot_core.urdf.xacro" />
 
     <xacro:include filename="gazebo_control.xacro" />
+    <xacro:include filename="depthcamera.urdf.xacro" /> 
+    <!-- <xacro:include filename="th3lidar.urdf.xacro" /> -->
+
     
 
     <!-- <xacro:include filename="lidar.urdf.xacro" /> -->
 
     <!-- <xacro:include filename="ir.urdf.xacro" /> -->
-    <xacro:include filename="lidar3d.urdf.xacro" />
+    <!-- <xacro:include filename="lidar3d.urdf.xacro" /> -->
 
 
 

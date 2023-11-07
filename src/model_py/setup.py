@@ -15,6 +15,8 @@ setup(
         (os.path.join('share', package_name,'launch'), glob('launch/*')),
         (os.path.join('share', package_name,'world'), glob('world/*')),
         (os.path.join('share', package_name,'urdf'), glob('urdf/*')),
+        (os.path.join('share', package_name,'config'), glob('config/*')),
+
 
     ],
     install_requires=['setuptools'],
@@ -26,6 +28,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'laser_frame_publisher=model_py.frame:main'
         ],
     },
 )

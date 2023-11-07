@@ -22,6 +22,9 @@ setup(
         'console_scripts': [
             'point_node = my_point.point_pub:main',
             'base_link_publisher=my_point.base_link:main',
+            'lidar_publisher=my_point.pointthree_pub:main',
+            'camera_pub=my_point.cam_pub:main',
+            'camera_sub=my_point.cam_sub:main'
             
         ],
     },

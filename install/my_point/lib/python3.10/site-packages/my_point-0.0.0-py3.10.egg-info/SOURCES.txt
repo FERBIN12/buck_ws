@@ -10,8 +10,11 @@ setup.py
 ../../build/my_point/my_point.egg-info/zip-safe
 my_point/__init__.py
 my_point/base_link.py
+my_point/cam_pub.py
+my_point/cam_sub.py
 my_point/mapsaver.py
 my_point/point_pub.py
+my_point/pointthree_pub.py
 my_point/threed.py
 resource/my_point
 test/test_copyright.py

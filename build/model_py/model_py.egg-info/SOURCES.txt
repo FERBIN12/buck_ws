@@ -4,12 +4,16 @@ setup.py
 ../../build/model_py/model_py.egg-info/PKG-INFO
 ../../build/model_py/model_py.egg-info/SOURCES.txt
 ../../build/model_py/model_py.egg-info/dependency_links.txt
+../../build/model_py/model_py.egg-info/entry_points.txt
 ../../build/model_py/model_py.egg-info/requires.txt
 ../../build/model_py/model_py.egg-info/top_level.txt
 ../../build/model_py/model_py.egg-info/zip-safe
+config/mapper_params_online_async.yaml
 launch/launch_sim.launch.py
 launch/rsp.launch.py
+launch/test.launch.py
 model_py/__init__.py
+model_py/frame.py
 model_py/test.py
 resource/model_py
 test/test_copyright.py
@@ -24,7 +28,9 @@ urdf/lidar3d.urdf.xacro
 urdf/robot_core.urdf.xacro
 urdf/run.urdf.xacro
 urdf/test.urdf.xacro
+urdf/test.xacro
 urdf/test2.urdf.xacro
+urdf/th3lidar.urdf.xacro
 world/empty.world
 world/simple.world
 world/test.world

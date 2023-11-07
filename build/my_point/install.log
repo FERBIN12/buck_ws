@@ -1,12 +1,18 @@
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/base_link.py
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/point_pub.py
+/home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/cam_sub.py
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/threed.py
+/home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/pointthree_pub.py
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/mapsaver.py
+/home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/cam_pub.py
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/__init__.py
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/__pycache__/base_link.cpython-310.pyc
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/__pycache__/point_pub.cpython-310.pyc
+/home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/__pycache__/cam_sub.cpython-310.pyc
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/__pycache__/threed.cpython-310.pyc
+/home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/__pycache__/pointthree_pub.cpython-310.pyc
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/__pycache__/mapsaver.cpython-310.pyc
+/home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/__pycache__/cam_pub.cpython-310.pyc
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/__pycache__/__init__.cpython-310.pyc
 /home/kanja-koduki/buck_ws/install/my_point/share/ament_index/resource_index/packages/my_point
 /home/kanja-koduki/buck_ws/install/my_point/share/my_point/package.xml
@@ -18,4 +24,7 @@
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point-0.0.0-py3.10.egg-info/zip-safe
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point-0.0.0-py3.10.egg-info/top_level.txt
 /home/kanja-koduki/buck_ws/install/my_point/lib/my_point/base_link_publisher
+/home/kanja-koduki/buck_ws/install/my_point/lib/my_point/camera_pub
+/home/kanja-koduki/buck_ws/install/my_point/lib/my_point/camera_sub
+/home/kanja-koduki/buck_ws/install/my_point/lib/my_point/lidar_publisher
 /home/kanja-koduki/buck_ws/install/my_point/lib/my_point/point_node

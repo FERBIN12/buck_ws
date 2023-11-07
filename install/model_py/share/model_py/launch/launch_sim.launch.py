@@ -8,8 +8,6 @@ from launch.actions import DeclareLaunchArgument
 from launch.conditions import IfCondition
 from launch.substitutions import LaunchConfiguration
 
-
-
 def generate_launch_description():
     package_name = 'model_py'
 
@@ -45,19 +43,18 @@ def generate_launch_description():
         executable='rviz2',
         name='rviz2',
     )
-    use_slam = DeclareLaunchArgument("use_slam", default_value="false", description="Enable 3D SLAM")
 
-    # If condition to enable SLAM
-    slam_enabled = IfCondition(LaunchConfiguration("use_slam"))
+    # RTAB-Map ROS Node
+    # rtabmap_ros_node = Node(
+    #     package='rtabmap_slam',
+    #     executable='rtabmap',
+    #     name='rtabmap_ros',
+    #     parameters=[
+    #         # Add any RTAB-Map parameters here
+    #         {'use_sim_time': True}  # Example parameter
+    #     ],
+    #     output='screen'
+    # )
 
-    # SLAM Toolbox node
-    slam_toolbox_node = Node(
-        package="slam_toolbox",
-        executable="slam_toolbox_node",
-        name="slam_toolbox_node",
-        output="screen",
-        condition=slam_enabled,
-        # Add any additional parameters or arguments for the SLAM node
-    )
     # Launch them all!
-    return LaunchDescription([rsp, gazebo, spawn_entity, rviz, use_slam,slam_toolbox_node])
+    return LaunchDescription([rsp, gazebo, spawn_entity, rviz])

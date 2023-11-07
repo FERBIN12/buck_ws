@@ -24,7 +24,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.1"/>
+      <mass value="0.0"/>
       <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
     </inertial>
   </link>
@@ -58,15 +58,13 @@
       </ray>
 
       <!-- Use <gazebo_ros> tag to specify Gazebo ROS plugin -->
-      <plugin name="lidar_controller" filename="libgazebo_ros_gpu_laser.so">
-        <ros>
-          <arguments>
-            <!-- Use <param> to specify parameters for the plugin -->
-            <param name="frame_name" value="lidar_frame"/>
-            <param name="output_topic" value="scan"/>
-          </arguments>
+        <plugin name="laser_controller" 
+        filename="libgazebo_ros_ray_sensor.so">
+          <ros>
+            <argument>~/out:=scan</argument>
         </ros>
         <output_type>sensor_msgs/LaserScan</output_type>
+        <frame_name>laser_frame</frame_name>
       </plugin>
     </sensor>
   </gazebo>
