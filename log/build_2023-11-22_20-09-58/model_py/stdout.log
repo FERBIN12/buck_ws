@@ -1,0 +1,36 @@
+running egg_info
+writing ../../build/model_py/model_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/model_py/model_py.egg-info/dependency_links.txt
+writing entry points to ../../build/model_py/model_py.egg-info/entry_points.txt
+writing requirements to ../../build/model_py/model_py.egg-info/requires.txt
+writing top-level names to ../../build/model_py/model_py.egg-info/top_level.txt
+reading manifest file '../../build/model_py/model_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/model_py/model_py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying urdf/test_d415_camera.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+copying urdf/_d435i.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+copying urdf/_d455.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+copying urdf/_r430.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+copying urdf/test_d435_camera.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+copying urdf/test_d435i_camera.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+copying urdf/run.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+copying urdf/test_r410_camera.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+copying urdf/test_r430_camera.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+copying urdf/_d435.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+copying urdf/_usb_plug.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+copying urdf/_r410.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+copying urdf/_d435i_imu_modules.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+copying urdf/test_d455_camera.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+copying urdf/_d415.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+copying urdf/_materials.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+copying urdf/test_d435_multiple_cameras.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+running install_egg_info
+removing '/home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages/model_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/model_py/model_py.egg-info to /home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages/model_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing laser_frame_publisher script to /home/kanja-koduki/buck_ws/install/model_py/lib/model_py
+writing list of installed files to '/home/kanja-koduki/buck_ws/build/model_py/install.log'

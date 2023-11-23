@@ -8,8 +8,6 @@ setup.py
 ../../build/model_py/model_py.egg-info/requires.txt
 ../../build/model_py/model_py.egg-info/top_level.txt
 ../../build/model_py/model_py.egg-info/zip-safe
-config/mapper_params_online_async.yaml
-config/rtabmap.yaml
 launch/launch_sim.launch.py
 launch/rsp.launch.py
 launch/test.launch.py
@@ -20,6 +18,10 @@ resource/model_py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+urdf/_materials.urdf.xacro
+urdf/_r430.urdf.xacro
+urdf/_usb_plug.urdf.xacro
+urdf/depth_test.urdf.xacro
 urdf/depthcamera.urdf.xacro
 urdf/gazebo_control.xacro
 urdf/inertial.urdf.xacro

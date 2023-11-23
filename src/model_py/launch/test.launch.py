@@ -1,41 +1,68 @@
-import os
-
-from ament_index_python.packages import get_package_share_directory
 
 from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument, SetEnvironmentVariable
 from launch.substitutions import LaunchConfiguration
-from launch.actions import DeclareLaunchArgument
+from launch.conditions import IfCondition, UnlessCondition
 from launch_ros.actions import Node
-
-import xacro
-
 
 def generate_launch_description():
 
-    # Check if we're told to use sim time
     use_sim_time = LaunchConfiguration('use_sim_time')
+    qos = LaunchConfiguration('qos')
+    localization = LaunchConfiguration('localization')
 
-    # Process the URDF file
-    pkg_path = os.path.join(get_package_share_directory('model_py'))
-    xacro_file = os.path.join(pkg_path,'urdf','center.urdf.xacro')
-    robot_description_config = xacro.process_file(xacro_file)
-    
-    # Create a robot_state_publisher node
-    params = {'robot_description': robot_description_config.toxml(), 'use_sim_time': use_sim_time}
-    node_robot_state_publisher = Node(
-        package='robot_state_publisher',
-        executable='robot_state_publisher',
-        output='screen',
-        parameters=[params]
-    )
+    parameters={
+          'frame_id':'base_footprint',
+          'use_sim_time':use_sim_time,
+          'subscribe_depth':True,
+          'use_action_for_goal':True,
+          'qos_image':qos,
+          'qos_imu':qos,
+          'Reg/Force3DoF':'true',
+          'Optimizer/GravitySigma':'0' # Disable imu constraints (we are already in 2D)
+    }
 
+    remappings=[
+          ('rgb/image', '/camera/image_raw'),
+          ('rgb/camera_info', '/camera/camera_info'),
+          ('depth/image', '/camera/depth/image_raw')]
 
-    # Launch!
     return LaunchDescription([
-        DeclareLaunchArgument(
-            'use_sim_time',
-            default_value='false',
-            description='Use sim time if true'),
 
-        node_robot_state_publisher
+        # Launch arguments
+        DeclareLaunchArgument(
+            'use_sim_time', default_value='true',
+            description='Use simulation (Gazebo) clock if true'),
+        
+        DeclareLaunchArgument(
+            'qos', default_value='2',
+            description='QoS used for input sensor topics'),
+            
+        DeclareLaunchArgument(
+            'localization', default_value='false',
+            description='Launch in localization mode.'),
+
+        # Nodes to launch
+        
+        # SLAM mode:
+        Node(
+            condition=UnlessCondition(localization),
+            package='rtabmap_slam', executable='rtabmap', output='screen',
+            parameters=[parameters],
+            remappings=remappings,
+            arguments=['-d']), # This will delete the previous database (~/.ros/rtabmap.db)
+            
+        # Localization mode:
+        Node(
+            condition=IfCondition(localization),
+            package='rtabmap_slam', executable='rtabmap', output='screen',
+            parameters=[parameters,
+              {'Mem/IncrementalMemory':'False',
+               'Mem/InitWMWithAllNodes':'True'}],
+            remappings=remappings),
+
+        Node(
+            package='rtabmap_viz', executable='rtabmap_viz', output='screen',
+            parameters=[parameters],
+            remappings=remappings),
     ])

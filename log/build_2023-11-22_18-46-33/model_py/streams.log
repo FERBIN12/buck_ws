@@ -1,0 +1,30 @@
+[1.809s] Invoking command in '/home/kanja-koduki/buck_ws/src/model_py': PYTHONPATH=/home/kanja-koduki/buck_ws/build/model_py/prefix_override:/home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/model_py build --build-base /home/kanja-koduki/buck_ws/build/model_py/build install --record /home/kanja-koduki/buck_ws/build/model_py/install.log --single-version-externally-managed
+[2.006s] running egg_info
+[2.022s] writing ../../build/model_py/model_py.egg-info/PKG-INFO
+[2.022s] writing dependency_links to ../../build/model_py/model_py.egg-info/dependency_links.txt
+[2.023s] writing entry points to ../../build/model_py/model_py.egg-info/entry_points.txt
+[2.023s] writing requirements to ../../build/model_py/model_py.egg-info/requires.txt
+[2.023s] writing top-level names to ../../build/model_py/model_py.egg-info/top_level.txt
+[2.054s] reading manifest file '../../build/model_py/model_py.egg-info/SOURCES.txt'
+[2.055s] writing manifest file '../../build/model_py/model_py.egg-info/SOURCES.txt'
+[2.056s] running build
+[2.056s] running build_py
+[2.056s] running install
+[2.056s] /home/kanja-koduki/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.056s] !!
+[2.056s] 
+[2.056s]         ********************************************************************************
+[2.056s]         Please avoid running ``setup.py`` directly.
+[2.056s]         Instead, use pypa/build, pypa/installer or other
+[2.056s]         standards-based tools.
+[2.056s] 
+[2.056s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.056s]         ********************************************************************************
+[2.056s] 
+[2.057s] !!
+[2.057s]   self.initialize_options()
+[2.060s] running install_lib
+[2.076s] running install_data
+[2.091s] copying launch/test.launch.py -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/launch
+[2.092s] error: can't copy 'config/log': doesn't exist or not a regular file
+[2.107s] Invoked command in '/home/kanja-koduki/buck_ws/src/model_py' returned '1': PYTHONPATH=/home/kanja-koduki/buck_ws/build/model_py/prefix_override:/home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/model_py build --build-base /home/kanja-koduki/buck_ws/build/model_py/build install --record /home/kanja-koduki/buck_ws/build/model_py/install.log --single-version-externally-managed
