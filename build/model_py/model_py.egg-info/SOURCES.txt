@@ -8,12 +8,16 @@ setup.py
 ../../build/model_py/model_py.egg-info/requires.txt
 ../../build/model_py/model_py.egg-info/top_level.txt
 ../../build/model_py/model_py.egg-info/zip-safe
+config/joystick.yaml
+launch/joy_test.launch.py
 launch/launch_sim.launch.py
 launch/rsp.launch.py
 launch/test.launch.py
 model_py/__init__.py
 model_py/frame.py
+model_py/joytest.py
 model_py/test.py
+model_py/try.py
 resource/model_py
 test/test_copyright.py
 test/test_flake8.py

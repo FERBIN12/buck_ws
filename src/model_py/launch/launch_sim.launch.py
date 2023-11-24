@@ -57,4 +57,6 @@ def generate_launch_description():
     # )
 
     # Launch them all!
-    return LaunchDescription([rsp, gazebo, spawn_entity, rviz])
+    return LaunchDescription([rsp, gazebo, spawn_entity,
+                                rviz
+                               ])

@@ -28,7 +28,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'laser_frame_publisher=model_py.frame:main'
+            'laser_frame_publisher=model_py.frame:main',
+            'test_joy=model_py.joytest:main'
         ],
     },
 )

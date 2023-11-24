@@ -23,9 +23,9 @@ def generate_launch_description():
     }
 
     remappings=[
-          ('rgb/image', '/camera/image_raw'),
-          ('rgb/camera_info', '/camera/camera_info'),
-          ('depth/image', '/camera/depth/image_raw')]
+          ('/D455_1/color/image_raw', '/camera/image_raw'),
+          ('/D455_1/color/camera_info', '/camera/camera_info'),
+          ('/D455_1/color/image_raw', '/camera/depth/image_raw')]
 
     return LaunchDescription([
 
@@ -65,4 +65,11 @@ def generate_launch_description():
             package='rtabmap_viz', executable='rtabmap_viz', output='screen',
             parameters=[parameters],
             remappings=remappings),
+        # Node(
+        #     package='rviz2' , executable='rviz2' , output='screen' ,
+        #     parameters=[parameters],           
+        #     remappings=remappings
+
+        # )
+
     ])
