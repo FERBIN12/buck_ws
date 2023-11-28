@@ -11,6 +11,7 @@ setup.py
 config/joystick.yaml
 launch/joy_test.launch.py
 launch/launch_sim.launch.py
+launch/niki.launch.py
 launch/rsp.launch.py
 launch/test.launch.py
 model_py/__init__.py

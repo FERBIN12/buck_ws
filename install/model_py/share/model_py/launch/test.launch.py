@@ -23,9 +23,9 @@ def generate_launch_description():
     }
 
     remappings=[
-          ('/D455_1/color/image_raw', '/camera/image_raw'),
-          ('/D455_1/color/camera_info', '/camera/camera_info'),
-          ('/D455_1/color/image_raw', '/camera/depth/image_raw')]
+          ('rgb/image', '/camera/image_raw'),
+          ('rgb/camera_info', '/camera/camera_info'),
+          ('depth/image', '/camera/depth/image_raw')]
 
     return LaunchDescription([
 

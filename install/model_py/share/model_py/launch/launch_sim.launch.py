@@ -38,11 +38,11 @@ def generate_launch_description():
         output='screen'
     )
 
-    # rviz = Node(
-    #     package='rviz2',
-    #     executable='rviz2',
-    #     name='rviz2',
-    # )
+    rviz = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+    )
 
     # RTAB-Map ROS Node
     # rtabmap_ros_node = Node(
@@ -58,5 +58,5 @@ def generate_launch_description():
 
     # Launch them all!
     return LaunchDescription([rsp, gazebo, spawn_entity,
-                            #    rviz
+                                rviz
                                ])
