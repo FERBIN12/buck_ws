@@ -1,0 +1,24 @@
+[1.802s] Invoking command in '/home/kanja-koduki/buck_ws/build/cpp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/cpp_node -- -j8 -l8
+[3.555s] [ 50%] Built target planner_seg
+[3.556s] [100%] Built target niki_bunda
+[3.565s] Invoked command in '/home/kanja-koduki/buck_ws/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/cpp_node -- -j8 -l8
+[3.744s] Invoking command in '/home/kanja-koduki/buck_ws/build/cpp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --install /home/kanja-koduki/buck_ws/build/cpp_node
+[3.808s] -- Install configuration: ""
+[3.809s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/lib/cpp_node/niki_bunda
+[3.810s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/lib/cpp_node/planner_seg
+[3.812s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/ament_index/resource_index/package_run_dependencies/cpp_node
+[3.812s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/ament_index/resource_index/parent_prefix_path/cpp_node
+[3.812s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.sh
+[3.812s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.dsv
+[3.813s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/environment/path.sh
+[3.813s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/environment/path.dsv
+[3.813s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/local_setup.bash
+[3.814s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/local_setup.sh
+[3.814s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/local_setup.zsh
+[3.814s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/local_setup.dsv
+[3.815s] -- Installing: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.dsv
+[3.821s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/ament_index/resource_index/packages/cpp_node
+[3.821s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig.cmake
+[3.821s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig-version.cmake
+[3.822s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.xml
+[3.828s] Invoked command in '/home/kanja-koduki/buck_ws/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --install /home/kanja-koduki/buck_ws/build/cpp_node

@@ -16,7 +16,6 @@
         </visual>
     </link>
 
-
     <joint name="camera_optical_joint2" type="fixed">
         <parent link="camera_link2"/>
         <child link="camera_link_optical2"/>
@@ -25,12 +24,10 @@
 
     <link name="camera_link_optical2"></link>
 
-
-
     <gazebo reference="camera_link2">
         <material>Gazebo/Red</material>
 
-        <sensor name="camera" type="depth">
+        <sensor name="camera2" type="depth">
             <pose> 0 0 0 0 0 0 </pose>
             <visualize>true</visualize>
             <update_rate>10</update_rate>
@@ -46,8 +43,9 @@
                     <far>8.0</far>
                 </clip> -->
             </camera>
+            <!-- Use a unique frame_name for the second camera -->
             <plugin name="camera_controller2" filename="libgazebo_ros_camera.so">
-                <frame_name>camera_link_optical</frame_name>
+                <frame_name>camera_link_optical2</frame_name>
                 <min_depth>0.1</min_depth>
                 <max_depth>100.0</max_depth>
             </plugin>
