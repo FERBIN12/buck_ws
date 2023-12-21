@@ -1,0 +1,177 @@
+[2.029s] Invoking command in '/home/kanja-koduki/buck_ws/build/cpp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake /home/kanja-koduki/buck_ws/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/kanja-koduki/buck_ws/install/cpp_node
+[4.069s] -- The C compiler identification is GNU 11.4.0
+[4.071s] -- The CXX compiler identification is GNU 11.4.0
+[4.071s] -- Detecting C compiler ABI info
+[4.071s] -- Detecting C compiler ABI info - done
+[4.071s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.071s] -- Detecting C compile features
+[4.071s] -- Detecting C compile features - done
+[4.071s] -- Detecting CXX compiler ABI info
+[4.072s] -- Detecting CXX compiler ABI info - done
+[4.072s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.072s] -- Detecting CXX compile features
+[4.072s] -- Detecting CXX compile features - done
+[4.072s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.072s] -- Found Python3: /usr/bin/python3.12 (found version "3.12.0") found components: Interpreter 
+[4.073s] -- Checking for module 'eigen3'
+[4.073s] --   Found eigen3, version 3.4.0
+[4.073s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.074s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.074s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[4.074s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[4.074s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[4.075s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[4.075s]   cmake_policy command to set the policy and suppress this warning.
+[4.075s] 
+[4.075s]   CMake variable EIGEN_ROOT is set to:
+[4.075s] 
+[4.075s]     /usr/include/eigen3
+[4.075s] 
+[4.076s]   For compatibility, find_package is ignoring the variable, but code in a
+[4.076s]   .cmake module might still use it.
+[4.076s] Call Stack (most recent call first):
+[4.076s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[4.076s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[4.076s]   CMakeLists.txt:10 (find_package)
+[4.077s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.077s] [0m
+[4.077s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[4.077s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[4.078s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[4.078s]   cmake_policy command to set the policy and suppress this warning.
+[4.078s] 
+[4.078s]   CMake variable FLANN_ROOT is set to:
+[4.080s] 
+[4.083s]     /usr
+[4.083s] 
+[4.083s]   For compatibility, find_package is ignoring the variable, but code in a
+[4.083s]   .cmake module might still use it.
+[4.084s] Call Stack (most recent call first):
+[4.084s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[4.084s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[4.084s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[4.084s]   CMakeLists.txt:10 (find_package)
+[4.084s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.085s] [0m
+[4.098s] -- Checking for module 'flann'
+[4.133s] --   Found flann, version 1.9.1
+[4.249s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[4.250s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[4.366s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.502s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.506s] -- Found Threads: TRUE  
+[4.515s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[4.550s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[4.837s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[4.838s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[4.849s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[4.915s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  
+[5.018s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[5.069s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[5.496s] -- Found X11: /usr/include   
+[5.496s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[5.622s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[5.622s] -- Looking for gethostbyname
+[5.762s] -- Looking for gethostbyname - found
+[5.763s] -- Looking for connect
+[5.915s] -- Looking for connect - found
+[5.916s] -- Looking for remove
+[6.080s] -- Looking for remove - found
+[6.080s] -- Looking for shmat
+[6.203s] -- Looking for shmat - found
+[6.203s] -- Looking for IceConnectionNumber in ICE
+[6.322s] -- Looking for IceConnectionNumber in ICE - found
+[6.723s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[6.732s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[6.747s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[6.755s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[6.817s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[6.847s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[6.877s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[6.903s] -- Found utf8cpp: /usr/include/utf8cpp  
+[7.078s] -- Checking for module 'libusb-1.0'
+[7.106s] --   Found libusb-1.0, version 1.0.25
+[7.176s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[7.182s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[7.183s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.312s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[7.312s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.313s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[8.033s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.048s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.064s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.695s] -- Found Qhull version 8.0.2
+[9.333s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.958s] -- looking for PCL_COMMON
+[9.962s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.963s] -- looking for PCL_KDTREE
+[9.965s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.965s] -- looking for PCL_OCTREE
+[9.967s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.968s] -- looking for PCL_SEARCH
+[9.970s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.970s] -- looking for PCL_SAMPLE_CONSENSUS
+[9.972s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.973s] -- looking for PCL_FILTERS
+[9.975s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.975s] -- looking for PCL_2D
+[9.975s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[9.976s] -- looking for PCL_GEOMETRY
+[9.977s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[9.977s] -- looking for PCL_IO
+[9.979s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.980s] -- looking for PCL_FEATURES
+[9.982s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.983s] -- looking for PCL_ML
+[9.985s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.985s] -- looking for PCL_SEGMENTATION
+[9.988s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.988s] -- looking for PCL_VISUALIZATION
+[9.990s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.991s] -- looking for PCL_SURFACE
+[9.993s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.994s] -- looking for PCL_REGISTRATION
+[9.996s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.996s] -- looking for PCL_KEYPOINTS
+[9.999s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.999s] -- looking for PCL_TRACKING
+[10.001s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[10.002s] -- looking for PCL_RECOGNITION
+[10.004s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[10.005s] -- looking for PCL_STEREO
+[10.007s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[10.007s] -- looking for PCL_APPS
+[10.009s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[10.011s] -- looking for PCL_IN_HAND_SCANNER
+[10.011s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[10.012s] -- looking for PCL_MODELER
+[10.012s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[10.013s] -- looking for PCL_POINT_CLOUD_EDITOR
+[10.014s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[10.014s] -- looking for PCL_OUTOFCORE
+[10.016s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[10.017s] -- looking for PCL_PEOPLE
+[10.019s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[10.021s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[10.029s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.313s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.314s] -- Configured cppcheck include dirs: 
+[10.314s] -- Configured cppcheck exclude dirs and/or files: 
+[10.316s] -- Added test 'lint_cmake' to check CMake code style
+[10.319s] -- Added test 'uncrustify' to check C / C++ code style
+[10.319s] -- Configured uncrustify additional arguments: 
+[10.321s] -- Added test 'xmllint' to check XML markup files
+[10.325s] -- Configuring done (8.2s)
+[10.339s] -- Generating done (0.0s)
+[10.344s] -- Build files have been written to: /home/kanja-koduki/buck_ws/build/cpp_node
+[10.387s] Invoked command in '/home/kanja-koduki/buck_ws/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake /home/kanja-koduki/buck_ws/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/kanja-koduki/buck_ws/install/cpp_node
+[10.392s] Invoking command in '/home/kanja-koduki/buck_ws/build/cpp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/cpp_node -- -j8 -l8
+[10.494s] [ 50%] [32mBuilding CXX object CMakeFiles/niki_bunda.dir/src/niki_bunda.cpp.o[0m
+[10.589s] [01m[K/home/kanja-koduki/buck_ws/src/cpp_node/src/niki_bunda.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kpcl/io/pcd_io.h: No such file or directory
+[10.589s]     2 | #include [01;31m[K<pcl/io/pcd_io.h>[m[K
+[10.589s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[10.589s] compilation terminated.
+[10.592s] gmake[2]: *** [CMakeFiles/niki_bunda.dir/build.make:76: CMakeFiles/niki_bunda.dir/src/niki_bunda.cpp.o] Error 1
+[10.592s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/niki_bunda.dir/all] Error 2
+[10.593s] gmake: *** [Makefile:146: all] Error 2
+[10.605s] Invoked command in '/home/kanja-koduki/buck_ws/build/cpp_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/cpp_node -- -j8 -l8

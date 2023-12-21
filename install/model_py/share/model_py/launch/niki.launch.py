@@ -1,8 +1,8 @@
-
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, SetEnvironmentVariable
 from launch.substitutions import LaunchConfiguration
-from launch.conditions import IfCondition, UnlessCondition
+from launch.conditions import IfCondition
+from launch.conditions import UnlessCondition
 from launch_ros.actions import Node
 
 def generate_launch_description():
@@ -22,11 +22,11 @@ def generate_launch_description():
           'Optimizer/GravitySigma':'0' # Disable imu constraints (we are already in 2D)
     }
 
-    # remappings=[
-    #       ('rgb/image', '/camera/image_raw'),
-    #       ('rgb/camera_info', '/camera/camera_info'),
-    #       ('depth/image', '/camera/depth/image_raw')
-    #       ]
+    remappings=[
+           ('rgb/image', '/camera/image_raw'),
+           ('rgb/camera_info', '/camera/camera_info'),
+           ('depth/image', '/camera/depth/image_raw')
+           ]
 
     return LaunchDescription([
 
@@ -46,32 +46,32 @@ def generate_launch_description():
         # Nodes to launch
         
         # SLAM mode:
-        # Node(
-        #     condition=UnlessCondition(localization),
-        #     package='rtabmap_slam', executable='rtabmap', output='screen',
-        #     parameters=[parameters],
-        #     remappings=remappings,
-        #     arguments=['-d']), # This will delete the previous database (~/.ros/rtabmap.db)
+        Node(
+            condition=UnlessCondition(localization),
+            package='rtabmap_slam', executable='rtabmap', output='screen',
+            parameters=[parameters],
+            remappings=remappings,
+            arguments=['-d']), # This will delete the previous database (~/.ros/rtabmap.db)
             
         # Localization mode:
-        # Node(
-        #     package='octomap_server', executable='octomap_saver_node', output='screen',
-        #     parameters=[parameters,
-        #       {'Mem/IncrementalMemory':'False',
-        #        'Mem/InitWMWithAllNodes':'True'}],
-        #     remappings=remappings),
+        Node(
+            package='octomap_server', executable='octomap_saver_node', output='screen',
+            parameters=[parameters,
+              {'Mem/IncrementalMemory':'False',
+               'Mem/InitWMWithAllNodes':'True'}],
+            remappings=remappings),
  
 
         Node(
             package='octomap_server', executable='octomap_saver_node', output='screen',
             parameters=[parameters],
-            #remappings=remappings
+            remappings=remappings
             ),
         # Node(
-        #     package='rviz2' , executable='rviz2' , output='screen' ,
-        #     parameters=[parameters],           
-        #     remappings=remappings
+           #  package='rviz2' , executable='rviz2' , output='screen' ,
+          #   parameters=[parameters],           
+         #    remappings=remappings
 
-        # )
+        #)
 
     ])

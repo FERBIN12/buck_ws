@@ -29,7 +29,8 @@ setup(
     entry_points={
         'console_scripts': [
             'laser_frame_publisher=model_py.frame:main',
-            'test_joy=model_py.joytest:main'
+            'test_joy=model_py.joytest:main',
+            'keyboard_listener=keyboard_node:main'
         ],
     },
 )

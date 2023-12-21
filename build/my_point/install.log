@@ -1,3 +1,4 @@
+/home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/map_generator.py
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/base_link.py
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/point_pub.py
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/cam_sub.py
@@ -6,6 +7,7 @@
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/mapsaver.py
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/cam_pub.py
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/__init__.py
+/home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/__pycache__/map_generator.cpython-310.pyc
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/__pycache__/base_link.cpython-310.pyc
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/__pycache__/point_pub.cpython-310.pyc
 /home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages/my_point/__pycache__/cam_sub.cpython-310.pyc
@@ -27,4 +29,5 @@
 /home/kanja-koduki/buck_ws/install/my_point/lib/my_point/camera_pub
 /home/kanja-koduki/buck_ws/install/my_point/lib/my_point/camera_sub
 /home/kanja-koduki/buck_ws/install/my_point/lib/my_point/lidar_publisher
+/home/kanja-koduki/buck_ws/install/my_point/lib/my_point/pcd_to_map_node
 /home/kanja-koduki/buck_ws/install/my_point/lib/my_point/point_node

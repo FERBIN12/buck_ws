@@ -24,7 +24,8 @@ setup(
             'base_link_publisher=my_point.base_link:main',
             'lidar_publisher=my_point.pointthree_pub:main',
             'camera_pub=my_point.cam_pub:main',
-            'camera_sub=my_point.cam_sub:main'
+            'camera_sub=my_point.cam_sub:main',
+            'pcd_to_map_node = my_point.map_generator:main'
             
         ],
     },

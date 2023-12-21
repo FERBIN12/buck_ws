@@ -1,0 +1,17 @@
+/home/kanja-koduki/buck_ws/install/cpp_node/lib/cpp_node/niki_bunda
+/home/kanja-koduki/buck_ws/install/cpp_node/lib/cpp_node/planner_seg
+/home/kanja-koduki/buck_ws/install/cpp_node/share/ament_index/resource_index/package_run_dependencies/cpp_node
+/home/kanja-koduki/buck_ws/install/cpp_node/share/ament_index/resource_index/parent_prefix_path/cpp_node
+/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.sh
+/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.dsv
+/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/environment/path.sh
+/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/environment/path.dsv
+/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/local_setup.bash
+/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/local_setup.sh
+/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/local_setup.zsh
+/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/local_setup.dsv
+/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.dsv
+/home/kanja-koduki/buck_ws/install/cpp_node/share/ament_index/resource_index/packages/cpp_node
+/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig.cmake
+/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig-version.cmake
+/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.xml

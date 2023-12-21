@@ -1,3 +1,4 @@
 [console_scripts]
+keyboard_listener = keyboard_node:main
 laser_frame_publisher = model_py.frame:main
 test_joy = model_py.joytest:main

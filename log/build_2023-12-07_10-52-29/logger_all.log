@@ -1,0 +1,310 @@
+[2.857s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[2.857s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa79804c4f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa79804faf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa79804faf0>>)[0m
+[3.027s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[3.027s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[3.027s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[3.027s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[3.027s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[3.028s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[3.028s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/kanja-koduki/buck_ws'
+[3.028s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.028s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[3.028s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[3.029s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[3.029s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[3.029s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[3.029s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[3.029s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[3.029s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[3.064s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[3.065s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[3.065s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[3.065s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[3.065s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[3.065s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.066s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[3.066s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[3.066s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.066s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[3.066s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[3.067s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.067s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[3.067s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[3.068s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.068s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[3.068s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[3.068s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[3.068s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[3.068s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[3.068s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[3.069s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[3.069s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[3.069s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[3.069s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[3.069s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[3.069s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[3.069s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[3.069s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_node) by extensions ['ignore', 'ignore_ament_install']
+[3.070s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_node) by extension 'ignore'
+[3.070s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_node) by extension 'ignore_ament_install'
+[3.070s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_node) by extensions ['colcon_pkg']
+[3.070s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_node) by extension 'colcon_pkg'
+[3.070s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_node) by extensions ['colcon_meta']
+[3.070s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_node) by extension 'colcon_meta'
+[3.070s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_node) by extensions ['ros']
+[3.070s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_node) by extension 'ros'
+[3.075s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/cpp_node' with type 'ros.ament_cmake' and name 'cpp_node'[0m
+[3.075s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/model_py) by extensions ['ignore', 'ignore_ament_install']
+[3.075s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/model_py) by extension 'ignore'
+[3.076s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/model_py) by extension 'ignore_ament_install'
+[3.076s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/model_py) by extensions ['colcon_pkg']
+[3.076s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/model_py) by extension 'colcon_pkg'
+[3.076s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/model_py) by extensions ['colcon_meta']
+[3.076s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/model_py) by extension 'colcon_meta'
+[3.076s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/model_py) by extensions ['ros']
+[3.076s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/model_py) by extension 'ros'
+[3.077s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/model_py' with type 'ros.ament_python' and name 'model_py'[0m
+[3.077s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_point) by extensions ['ignore', 'ignore_ament_install']
+[3.078s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_point) by extension 'ignore'
+[3.078s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_point) by extension 'ignore_ament_install'
+[3.078s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_point) by extensions ['colcon_pkg']
+[3.078s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_point) by extension 'colcon_pkg'
+[3.078s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_point) by extensions ['colcon_meta']
+[3.078s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_point) by extension 'colcon_meta'
+[3.078s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_point) by extensions ['ros']
+[3.078s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_point) by extension 'ros'
+[3.079s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/my_point' with type 'ros.ament_python' and name 'my_point'[0m
+[3.080s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[3.080s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_description) by extension 'ignore'
+[3.080s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_description) by extension 'ignore_ament_install'
+[3.080s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_description) by extensions ['colcon_pkg']
+[3.080s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_description) by extension 'colcon_pkg'
+[3.080s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_description) by extensions ['colcon_meta']
+[3.080s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_description) by extension 'colcon_meta'
+[3.081s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_description) by extensions ['ros']
+[3.081s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_description) by extension 'ros'
+[3.082s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'[0m
+[3.082s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[3.082s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[3.082s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[3.082s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[3.082s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[3.331s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[3.331s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[3.432s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/kanja-koduki/zypher_ws/install[0m
+[3.480s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 7 installed packages in /home/kanja-koduki/flair_ws/install[0m
+[3.534s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/kanja-koduki/missy_ws/install[0m
+[3.586s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/kanja-koduki/ortega_ws/install[0m
+[3.630s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 3 installed packages in /home/kanja-koduki/eyantra23_ws/install[0m
+[3.674s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 3 installed packages in /home/kanja-koduki/hannah_ws/install[0m
+[3.736s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /home/kanja-koduki/niki_ws/install[0m
+[3.778s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 7 installed packages in /home/kanja-koduki/buck_ws/install[0m
+[3.829s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 486 installed packages in /opt/ros/humble[0m
+[3.835s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[4.051s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_node' build argument 'cmake_args' from command line to 'None'
+[4.051s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_node' build argument 'cmake_target' from command line to 'None'
+[4.051s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.051s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_node' build argument 'cmake_clean_cache' from command line to 'False'
+[4.051s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_node' build argument 'cmake_clean_first' from command line to 'False'
+[4.051s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_node' build argument 'cmake_force_configure' from command line to 'False'
+[4.052s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_node' build argument 'ament_cmake_args' from command line to 'None'
+[4.052s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_node' build argument 'catkin_cmake_args' from command line to 'None'
+[4.052s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.052s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'cpp_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kanja-koduki/buck_ws/build/cpp_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kanja-koduki/buck_ws/install/cpp_node', 'merge_install': False, 'path': '/home/kanja-koduki/buck_ws/src/cpp_node', 'symlink_install': False, 'test_result_base': None}[0m
+[4.099s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'model_py' build argument 'cmake_args' from command line to 'None'
+[4.100s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'model_py' build argument 'cmake_target' from command line to 'None'
+[4.100s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'model_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.100s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'model_py' build argument 'cmake_clean_cache' from command line to 'False'
+[4.100s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'model_py' build argument 'cmake_clean_first' from command line to 'False'
+[4.100s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'model_py' build argument 'cmake_force_configure' from command line to 'False'
+[4.100s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'model_py' build argument 'ament_cmake_args' from command line to 'None'
+[4.100s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'model_py' build argument 'catkin_cmake_args' from command line to 'None'
+[4.100s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'model_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.100s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'model_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kanja-koduki/buck_ws/build/model_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kanja-koduki/buck_ws/install/model_py', 'merge_install': False, 'path': '/home/kanja-koduki/buck_ws/src/model_py', 'symlink_install': False, 'test_result_base': None}[0m
+[4.148s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_point' build argument 'cmake_args' from command line to 'None'
+[4.148s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_point' build argument 'cmake_target' from command line to 'None'
+[4.149s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_point' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.149s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_point' build argument 'cmake_clean_cache' from command line to 'False'
+[4.149s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_point' build argument 'cmake_clean_first' from command line to 'False'
+[4.149s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_point' build argument 'cmake_force_configure' from command line to 'False'
+[4.149s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_point' build argument 'ament_cmake_args' from command line to 'None'
+[4.149s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_point' build argument 'catkin_cmake_args' from command line to 'None'
+[4.149s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_point' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.149s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'my_point' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kanja-koduki/buck_ws/build/my_point', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kanja-koduki/buck_ws/install/my_point', 'merge_install': False, 'path': '/home/kanja-koduki/buck_ws/src/my_point', 'symlink_install': False, 'test_result_base': None}[0m
+[4.191s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[4.191s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[4.191s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.191s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[4.191s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[4.191s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[4.191s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[4.191s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[4.191s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.192s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kanja-koduki/buck_ws/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kanja-koduki/buck_ws/install/robot_description', 'merge_install': False, 'path': '/home/kanja-koduki/buck_ws/src/robot_description', 'symlink_install': False, 'test_result_base': None}[0m
+[4.230s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[4.276s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[4.277s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/kanja-koduki/buck_ws/src/cpp_node' with build type 'ament_cmake'
+[4.277s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/kanja-koduki/buck_ws/src/cpp_node'
+[4.330s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.330s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.331s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[4.793s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/kanja-koduki/buck_ws/src/model_py' with build type 'ament_python'
+[4.793s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('model_py', 'ament_prefix_path')
+[4.840s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/kanja-koduki/buck_ws/install/model_py/share/model_py/hook/ament_prefix_path.ps1'
+[4.842s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/kanja-koduki/buck_ws/install/model_py/share/model_py/hook/ament_prefix_path.dsv'
+[4.843s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/kanja-koduki/buck_ws/install/model_py/share/model_py/hook/ament_prefix_path.sh'
+[4.907s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.908s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[5.383s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/kanja-koduki/buck_ws/src/my_point' with build type 'ament_python'
+[5.383s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_point', 'ament_prefix_path')
+[5.424s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/kanja-koduki/buck_ws/install/my_point/share/my_point/hook/ament_prefix_path.ps1'
+[5.425s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/kanja-koduki/buck_ws/install/my_point/share/my_point/hook/ament_prefix_path.dsv'
+[5.426s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/kanja-koduki/buck_ws/install/my_point/share/my_point/hook/ament_prefix_path.sh'
+[5.472s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.472s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[5.970s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/kanja-koduki/buck_ws/src/robot_description' with build type 'ament_cmake'
+[5.971s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/kanja-koduki/buck_ws/src/robot_description'
+[6.016s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.017s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[6.504s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/kanja-koduki/buck_ws/build/cpp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/cpp_node -- -j8 -l8[0m
+[7.023s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/kanja-koduki/buck_ws/src/model_py'
+[7.071s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.071s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[8.037s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/kanja-koduki/buck_ws/src/my_point'
+[8.084s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.084s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[8.594s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/kanja-koduki/buck_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/robot_description -- -j8 -l8[0m
+[8.600s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/kanja-koduki/buck_ws/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/cpp_node -- -j8 -l8[0m
+[8.730s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/kanja-koduki/buck_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/robot_description -- -j8 -l8[0m
+[8.860s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/kanja-koduki/buck_ws/build/cpp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --install /home/kanja-koduki/buck_ws/build/cpp_node[0m
+[8.902s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/kanja-koduki/buck_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --install /home/kanja-koduki/buck_ws/build/robot_description[0m
+[9.002s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cpp_node)
+[9.005s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/kanja-koduki/buck_ws/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --install /home/kanja-koduki/buck_ws/build/cpp_node[0m
+[9.123s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/cpp_node' for CMake module files
+[9.125s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/cpp_node' for CMake config files
+[9.126s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cpp_node', 'cmake_prefix_path')
+[9.188s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/hook/cmake_prefix_path.ps1'
+[9.190s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/hook/cmake_prefix_path.dsv'
+[9.191s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/hook/cmake_prefix_path.sh'
+[9.192s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/cpp_node/lib'
+[9.193s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/cpp_node/bin'
+[9.193s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/cpp_node/lib/pkgconfig/cpp_node.pc'
+[9.194s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/cpp_node/lib/python3.10/site-packages'
+[9.195s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/cpp_node/bin'
+[9.259s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.ps1'
+[9.261s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.dsv'
+[9.262s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.sh'
+[9.264s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.bash'
+[9.266s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.zsh'
+[9.267s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/kanja-koduki/buck_ws/install/cpp_node/share/colcon-core/packages/cpp_node)
+[9.271s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(robot_description)
+[9.278s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/kanja-koduki/buck_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --install /home/kanja-koduki/buck_ws/build/robot_description[0m
+[9.351s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/robot_description' for CMake module files
+[9.352s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/robot_description' for CMake config files
+[9.353s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_description', 'cmake_prefix_path')
+[9.420s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[9.422s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[9.423s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[9.425s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/robot_description/bin'
+[9.425s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[9.426s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/robot_description/lib/python3.10/site-packages'
+[9.426s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/robot_description/bin'
+[9.481s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/package.ps1'
+[9.482s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/package.dsv'
+[9.482s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/package.sh'
+[9.483s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/package.bash'
+[9.484s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/package.zsh'
+[9.484s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/kanja-koduki/buck_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[9.560s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cpp_node)
+[9.620s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/cpp_node' for CMake module files
+[9.621s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/cpp_node' for CMake config files
+[9.622s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cpp_node', 'cmake_prefix_path')
+[9.682s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/hook/cmake_prefix_path.ps1'
+[9.685s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/hook/cmake_prefix_path.dsv'
+[9.687s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/hook/cmake_prefix_path.sh'
+[9.689s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/cpp_node/lib'
+[9.689s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/cpp_node/bin'
+[9.690s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/cpp_node/lib/pkgconfig/cpp_node.pc'
+[9.691s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/cpp_node/lib/python3.10/site-packages'
+[9.692s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/cpp_node/bin'
+[9.756s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.ps1'
+[9.757s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.dsv'
+[9.759s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.sh'
+[9.760s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.bash'
+[9.761s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.zsh'
+[9.761s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/kanja-koduki/buck_ws/install/cpp_node/share/colcon-core/packages/cpp_node)
+[9.822s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(robot_description)
+[9.880s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/robot_description' for CMake module files
+[9.881s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/robot_description' for CMake config files
+[9.881s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_description', 'cmake_prefix_path')
+[9.927s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[9.928s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[9.928s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[9.930s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/robot_description/bin'
+[9.930s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[9.930s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/robot_description/lib/python3.10/site-packages'
+[9.931s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/robot_description/bin'
+[9.981s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/package.ps1'
+[9.982s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/package.dsv'
+[9.983s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/package.sh'
+[9.984s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/package.bash'
+[9.985s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/package.zsh'
+[9.985s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/kanja-koduki/buck_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[10.441s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/kanja-koduki/buck_ws/src/my_point': PYTHONPATH=/home/kanja-koduki/buck_ws/build/my_point/prefix_override:/home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_point build --build-base /home/kanja-koduki/buck_ws/build/my_point/build install --record /home/kanja-koduki/buck_ws/build/my_point/install.log --single-version-externally-managed[0m
+[10.482s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/kanja-koduki/buck_ws/src/model_py': PYTHONPATH=/home/kanja-koduki/buck_ws/build/model_py/prefix_override:/home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/model_py build --build-base /home/kanja-koduki/buck_ws/build/model_py/build install --record /home/kanja-koduki/buck_ws/build/model_py/install.log --single-version-externally-managed[0m
+[11.986s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/kanja-koduki/buck_ws/src/my_point' returned '0': PYTHONPATH=/home/kanja-koduki/buck_ws/build/my_point/prefix_override:/home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_point build --build-base /home/kanja-koduki/buck_ws/build/my_point/build install --record /home/kanja-koduki/buck_ws/build/my_point/install.log --single-version-externally-managed[0m
+[12.044s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/my_point' for CMake module files
+[12.045s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/my_point' for CMake config files
+[12.046s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/my_point/lib'
+[12.046s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/my_point/bin'
+[12.047s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/my_point/lib/pkgconfig/my_point.pc'
+[12.047s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/my_point/lib/python3.10/site-packages'
+[12.047s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_point', 'pythonpath')
+[12.098s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/kanja-koduki/buck_ws/install/my_point/share/my_point/hook/pythonpath.ps1'
+[12.100s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/kanja-koduki/buck_ws/install/my_point/share/my_point/hook/pythonpath.dsv'
+[12.101s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/kanja-koduki/buck_ws/install/my_point/share/my_point/hook/pythonpath.sh'
+[12.102s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/my_point/bin'
+[12.102s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(my_point)
+[12.153s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/my_point/share/my_point/package.ps1'
+[12.155s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/kanja-koduki/buck_ws/install/my_point/share/my_point/package.dsv'
+[12.157s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/my_point/share/my_point/package.sh'
+[12.158s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/my_point/share/my_point/package.bash'
+[12.158s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/my_point/share/my_point/package.zsh'
+[12.159s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/kanja-koduki/buck_ws/install/my_point/share/colcon-core/packages/my_point)
+[12.163s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/kanja-koduki/buck_ws/src/model_py' returned '0': PYTHONPATH=/home/kanja-koduki/buck_ws/build/model_py/prefix_override:/home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/model_py build --build-base /home/kanja-koduki/buck_ws/build/model_py/build install --record /home/kanja-koduki/buck_ws/build/model_py/install.log --single-version-externally-managed[0m
+[12.213s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/model_py' for CMake module files
+[12.214s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/model_py' for CMake config files
+[12.215s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/model_py/lib'
+[12.215s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/model_py/bin'
+[12.216s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/model_py/lib/pkgconfig/model_py.pc'
+[12.216s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages'
+[12.216s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('model_py', 'pythonpath')
+[12.256s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/kanja-koduki/buck_ws/install/model_py/share/model_py/hook/pythonpath.ps1'
+[12.257s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/kanja-koduki/buck_ws/install/model_py/share/model_py/hook/pythonpath.dsv'
+[12.257s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/kanja-koduki/buck_ws/install/model_py/share/model_py/hook/pythonpath.sh'
+[12.258s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/kanja-koduki/buck_ws/install/model_py/bin'
+[12.258s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(model_py)
+[12.304s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/model_py/share/model_py/package.ps1'
+[12.305s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/kanja-koduki/buck_ws/install/model_py/share/model_py/package.dsv'
+[12.306s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/model_py/share/model_py/package.sh'
+[12.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/model_py/share/model_py/package.bash'
+[12.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/kanja-koduki/buck_ws/install/model_py/share/model_py/package.zsh'
+[12.308s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/kanja-koduki/buck_ws/install/model_py/share/colcon-core/packages/model_py)
+[12.308s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[12.309s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[12.310s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[12.310s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[12.390s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.390s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.390s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[12.418s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[12.474s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/kanja-koduki/buck_ws/install/local_setup.ps1'
+[12.476s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/kanja-koduki/buck_ws/install/_local_setup_util_ps1.py'
+[12.478s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/kanja-koduki/buck_ws/install/setup.ps1'
+[12.520s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/kanja-koduki/buck_ws/install/local_setup.sh'
+[12.521s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/kanja-koduki/buck_ws/install/_local_setup_util_sh.py'
+[12.522s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/kanja-koduki/buck_ws/install/setup.sh'
+[12.584s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/kanja-koduki/buck_ws/install/local_setup.bash'
+[12.586s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/kanja-koduki/buck_ws/install/setup.bash'
+[12.650s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/kanja-koduki/buck_ws/install/local_setup.zsh'
+[12.651s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/kanja-koduki/buck_ws/install/setup.zsh'

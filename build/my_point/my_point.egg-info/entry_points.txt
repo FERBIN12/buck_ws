@@ -3,4 +3,5 @@ base_link_publisher = my_point.base_link:main
 camera_pub = my_point.cam_pub:main
 camera_sub = my_point.cam_sub:main
 lidar_publisher = my_point.pointthree_pub:main
+pcd_to_map_node = my_point.map_generator:main
 point_node = my_point.point_pub:main

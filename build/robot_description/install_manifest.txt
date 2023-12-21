@@ -7,11 +7,15 @@
 /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor8.STL
 /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor7.STL
 /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor6.STL
+/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/model_test/model.config
+/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/model_test/model.sdf
 /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor2.STL
 /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor4.STL
 /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor3.STL
 /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor1.STL
 /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/base_link.STL
+/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/test/model.config
+/home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/test/model.sdf
 /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor5.STL
 /home/kanja-koduki/buck_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
 /home/kanja-koduki/buck_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description

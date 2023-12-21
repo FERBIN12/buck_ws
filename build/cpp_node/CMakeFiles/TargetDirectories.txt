@@ -1,0 +1,11 @@
+/home/kanja-koduki/buck_ws/build/cpp_node/CMakeFiles/uninstall.dir
+/home/kanja-koduki/buck_ws/build/cpp_node/CMakeFiles/cpp_node_uninstall.dir
+/home/kanja-koduki/buck_ws/build/cpp_node/CMakeFiles/niki_bunda.dir
+/home/kanja-koduki/buck_ws/build/cpp_node/CMakeFiles/planner_seg.dir
+/home/kanja-koduki/buck_ws/build/cpp_node/CMakeFiles/test.dir
+/home/kanja-koduki/buck_ws/build/cpp_node/CMakeFiles/edit_cache.dir
+/home/kanja-koduki/buck_ws/build/cpp_node/CMakeFiles/rebuild_cache.dir
+/home/kanja-koduki/buck_ws/build/cpp_node/CMakeFiles/list_install_components.dir
+/home/kanja-koduki/buck_ws/build/cpp_node/CMakeFiles/install.dir
+/home/kanja-koduki/buck_ws/build/cpp_node/CMakeFiles/install/local.dir
+/home/kanja-koduki/buck_ws/build/cpp_node/CMakeFiles/install/strip.dir

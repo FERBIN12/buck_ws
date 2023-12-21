@@ -1,0 +1,22 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/niki_bunda.dir/src/niki_bunda.cpp.o[0m
+[ 75%] Built target planner_seg
+[100%] [32m[1mLinking CXX executable niki_bunda[0m
+[100%] Built target niki_bunda
+-- Install configuration: ""
+-- Installing: /home/kanja-koduki/buck_ws/install/cpp_node/lib/cpp_node/niki_bunda
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/lib/cpp_node/planner_seg
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/ament_index/resource_index/package_run_dependencies/cpp_node
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/ament_index/resource_index/parent_prefix_path/cpp_node
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/environment/path.sh
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/environment/path.dsv
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/local_setup.bash
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/local_setup.sh
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/local_setup.zsh
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/local_setup.dsv
+-- Installing: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.dsv
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/ament_index/resource_index/packages/cpp_node
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig.cmake
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig-version.cmake
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.xml

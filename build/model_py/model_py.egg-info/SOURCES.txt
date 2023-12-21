@@ -9,6 +9,7 @@ setup.py
 ../../build/model_py/model_py.egg-info/top_level.txt
 ../../build/model_py/model_py.egg-info/zip-safe
 config/joystick.yaml
+config/mapper_params_online_async.yaml
 launch/joy_test.launch.py
 launch/launch_sim.launch.py
 launch/niki.launch.py
@@ -17,6 +18,7 @@ launch/test.launch.py
 model_py/__init__.py
 model_py/frame.py
 model_py/joytest.py
+model_py/keyboard_node.py
 model_py/test.py
 model_py/try.py
 resource/model_py
@@ -27,8 +29,10 @@ urdf/_materials.urdf.xacro
 urdf/_r430.urdf.xacro
 urdf/_usb_plug.urdf.xacro
 urdf/depth_test.urdf.xacro
+urdf/depthcam2.urdf.xacro
 urdf/depthcamera.urdf.xacro
 urdf/gazebo_control.xacro
+urdf/imu.urdf.xacro
 urdf/inertial.urdf.xacro
 urdf/ir.urdf.xacro
 urdf/lidar.urdf.xacro
@@ -40,6 +44,7 @@ urdf/test.xacro
 urdf/test2.urdf.xacro
 urdf/th3lidar.urdf.xacro
 world/empty.world
+world/nikii.world
 world/simple.world
 world/test.world
 world/trial.world

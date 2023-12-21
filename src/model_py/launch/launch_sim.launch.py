@@ -10,7 +10,7 @@ from launch.substitutions import LaunchConfiguration
 
 def generate_launch_description():
     package_name = 'model_py'
-
+    
     # Include your custom launch file (rsp.launch.py)
     rsp = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([os.path.join(
@@ -43,7 +43,8 @@ def generate_launch_description():
         executable='rviz2',
         name='rviz2',
     )
-
+    
+  
     # RTAB-Map ROS Node
     # rtabmap_ros_node = Node(
     #     package='rtabmap_slam',
@@ -56,7 +57,11 @@ def generate_launch_description():
     #     output='screen'
     # )
 
+
+
+
+
     # Launch them all!
     return LaunchDescription([rsp, gazebo, spawn_entity,
-                                rviz
+                                  rviz
                                ])

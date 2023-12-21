@@ -1,0 +1,36 @@
+running egg_info
+writing ../../build/model_py/model_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/model_py/model_py.egg-info/dependency_links.txt
+writing entry points to ../../build/model_py/model_py.egg-info/entry_points.txt
+writing requirements to ../../build/model_py/model_py.egg-info/requires.txt
+writing top-level names to ../../build/model_py/model_py.egg-info/top_level.txt
+reading manifest file '../../build/model_py/model_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/model_py/model_py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/home/kanja-koduki/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running install_lib
+running install_data
+copying urdf/run.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+copying urdf/imu.urdf.xacro -> /home/kanja-koduki/buck_ws/install/model_py/share/model_py/urdf
+running install_egg_info
+removing '/home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages/model_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/model_py/model_py.egg-info to /home/kanja-koduki/buck_ws/install/model_py/lib/python3.10/site-packages/model_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing keyboard_listener script to /home/kanja-koduki/buck_ws/install/model_py/lib/model_py
+Installing laser_frame_publisher script to /home/kanja-koduki/buck_ws/install/model_py/lib/model_py
+Installing test_joy script to /home/kanja-koduki/buck_ws/install/model_py/lib/model_py
+writing list of installed files to '/home/kanja-koduki/buck_ws/build/model_py/install.log'

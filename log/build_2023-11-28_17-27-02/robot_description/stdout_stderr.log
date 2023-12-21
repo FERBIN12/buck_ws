@@ -1,0 +1,42 @@
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/kanja-koduki/buck_ws/build/robot_description
+-- Install configuration: ""
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf/run.urdf.xacro
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf/lidar.urdf.xacro
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf/inertial.urdf.xacro
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf/test2.urdf.xacro
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf/robot_core.urdf.xacro
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/urdf/test.urdf.xacro
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor8.STL
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor7.STL
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor6.STL
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor2.STL
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor4.STL
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor3.STL
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor1.STL
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/base_link.STL
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/meshes/motor5.STL
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+-- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+-- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+-- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/environment/path.sh
+-- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/environment/path.dsv
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/local_setup.bash
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/local_setup.sh
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/local_setup.zsh
+-- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/local_setup.dsv
+-- Installing: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/package.dsv
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+-- Up-to-date: /home/kanja-koduki/buck_ws/install/robot_description/share/robot_description/package.xml

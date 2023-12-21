@@ -1,0 +1,110 @@
+[0.728s] Invoking command in '/home/kanja-koduki/buck_ws/build/cpp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/cpp_node -- -j8 -l8
+[1.419s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[1.419s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.419s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.420s]   cmake_policy command to set the policy and suppress this warning.
+[1.420s] 
+[1.420s]   CMake variable EIGEN_ROOT is set to:
+[1.421s] 
+[1.421s]     /usr/include/eigen3
+[1.421s] 
+[1.421s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.421s]   .cmake module might still use it.
+[1.421s] Call Stack (most recent call first):
+[1.421s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[1.421s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.421s]   CMakeLists.txt:10 (find_package)
+[1.421s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.421s] [0m
+[1.421s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[1.421s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.421s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.422s]   cmake_policy command to set the policy and suppress this warning.
+[1.422s] 
+[1.422s]   CMake variable FLANN_ROOT is set to:
+[1.422s] 
+[1.422s]     /usr
+[1.422s] 
+[1.422s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.423s]   .cmake module might still use it.
+[1.424s] Call Stack (most recent call first):
+[1.424s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[1.424s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[1.424s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.425s]   CMakeLists.txt:10 (find_package)
+[1.425s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.425s] [0m
+[1.426s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.426s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.426s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.733s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.757s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.757s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.013s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.018s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.024s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.274s] -- Found Qhull version 8.0.2
+[2.533s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.768s] -- looking for PCL_COMMON
+[2.768s] -- looking for PCL_KDTREE
+[2.769s] -- looking for PCL_OCTREE
+[2.769s] -- looking for PCL_SEARCH
+[2.769s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.770s] -- looking for PCL_FILTERS
+[2.770s] -- looking for PCL_2D
+[2.771s] -- looking for PCL_GEOMETRY
+[2.771s] -- looking for PCL_IO
+[2.771s] -- looking for PCL_FEATURES
+[2.772s] -- looking for PCL_ML
+[2.772s] -- looking for PCL_SEGMENTATION
+[2.773s] -- looking for PCL_VISUALIZATION
+[2.773s] -- looking for PCL_SURFACE
+[2.773s] -- looking for PCL_REGISTRATION
+[2.774s] -- looking for PCL_KEYPOINTS
+[2.774s] -- looking for PCL_TRACKING
+[2.775s] -- looking for PCL_RECOGNITION
+[2.775s] -- looking for PCL_STEREO
+[2.775s] -- looking for PCL_APPS
+[2.776s] -- looking for PCL_IN_HAND_SCANNER
+[2.776s] -- looking for PCL_MODELER
+[2.777s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.777s] -- looking for PCL_OUTOFCORE
+[2.777s] -- looking for PCL_PEOPLE
+[2.780s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.894s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.894s] -- Configured cppcheck include dirs: /home/kanja-koduki/buck_ws/src/cpp_node/include
+[2.895s] -- Configured cppcheck exclude dirs and/or files: 
+[2.895s] -- Added test 'lint_cmake' to check CMake code style
+[2.896s] -- Added test 'uncrustify' to check C / C++ code style
+[2.896s] -- Configured uncrustify additional arguments: 
+[2.896s] -- Added test 'xmllint' to check XML markup files
+[2.898s] -- Configuring done (2.1s)
+[2.943s] -- Generating done (0.0s)
+[2.945s] -- Build files have been written to: /home/kanja-koduki/buck_ws/build/cpp_node
+[2.966s] [ 25%] [32mBuilding CXX object CMakeFiles/planner_seg.dir/src/planner_seg.cpp.o[0m
+[2.976s] [ 50%] [32mBuilding CXX object CMakeFiles/niki_bunda.dir/src/niki_bunda.cpp.o[0m
+[5.772s] [ 75%] [32m[1mLinking CXX executable niki_bunda[0m
+[5.821s] [100%] [32m[1mLinking CXX executable planner_seg[0m
+[6.467s] [100%] Built target niki_bunda
+[6.678s] [100%] Built target planner_seg
+[6.684s] Invoked command in '/home/kanja-koduki/buck_ws/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/buck_ws/build/cpp_node -- -j8 -l8
+[6.729s] Invoking command in '/home/kanja-koduki/buck_ws/build/cpp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --install /home/kanja-koduki/buck_ws/build/cpp_node
+[6.752s] -- Install configuration: ""
+[6.753s] -- Installing: /home/kanja-koduki/buck_ws/install/cpp_node/lib/cpp_node/niki_bunda
+[6.753s] -- Installing: /home/kanja-koduki/buck_ws/install/cpp_node/lib/cpp_node/planner_seg
+[6.753s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/ament_index/resource_index/package_run_dependencies/cpp_node
+[6.753s] -- Installing: /home/kanja-koduki/buck_ws/install/cpp_node/share/ament_index/resource_index/parent_prefix_path/cpp_node
+[6.754s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.sh
+[6.754s] -- Installing: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.dsv
+[6.754s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/environment/path.sh
+[6.754s] -- Installing: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/environment/path.dsv
+[6.754s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/local_setup.bash
+[6.754s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/local_setup.sh
+[6.754s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/local_setup.zsh
+[6.754s] -- Installing: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/local_setup.dsv
+[6.754s] -- Installing: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.dsv
+[6.754s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/ament_index/resource_index/packages/cpp_node
+[6.755s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig.cmake
+[6.755s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig-version.cmake
+[6.755s] -- Up-to-date: /home/kanja-koduki/buck_ws/install/cpp_node/share/cpp_node/package.xml
+[6.761s] Invoked command in '/home/kanja-koduki/buck_ws/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/buck_ws/install/my_point:/home/kanja-koduki/buck_ws/install/model_py:/home/kanja-koduki/hannah_ws/install/hannah_bot:/home/kanja-koduki/niki_ws/install/sjtu_drone_bringup:/home/kanja-koduki/zypher_ws/install/prius_sdc_pkg:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --install /home/kanja-koduki/buck_ws/build/cpp_node
