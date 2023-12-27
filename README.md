@@ -15,6 +15,7 @@ Launch Simulation
 Initially, to assess the URDF, use this command:
 
 The model file resides within the directory path: src/model_py/urdf/run.urdf.xacro
+
     ros2 launch urdf_tutorial display.launch.py model:=/path_to_model (run.urdf.xacro)
 
 
