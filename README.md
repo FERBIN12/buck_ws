@@ -25,3 +25,6 @@ To launch the simulation, run the following command:
     ros2 launch model_py launch_sim.launch.py
 
 This command will start the robot simulation along with the necessary nodes and configurations.
+
+![image](https://github.com/FERBIN12/buck_ws/assets/126778624/def62200-0173-4935-8bf8-24dae0046aa1)
+
