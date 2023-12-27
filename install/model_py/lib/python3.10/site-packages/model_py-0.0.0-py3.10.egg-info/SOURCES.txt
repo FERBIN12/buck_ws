@@ -15,6 +15,7 @@ launch/launch_sim.launch.py
 launch/niki.launch.py
 launch/rsp.launch.py
 launch/test.launch.py
+launch/twodepth.launch.py
 model_py/__init__.py
 model_py/frame.py
 model_py/joytest.py
@@ -44,6 +45,7 @@ urdf/test.xacro
 urdf/test2.urdf.xacro
 urdf/th3lidar.urdf.xacro
 world/empty.world
+world/hills.world
 world/nikii.world
 world/simple.world
 world/test.world

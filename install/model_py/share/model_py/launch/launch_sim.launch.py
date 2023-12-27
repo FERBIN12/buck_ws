@@ -20,7 +20,7 @@ def generate_launch_description():
     )
 
     # Path to your Gazebo world file
-    world_file_path = os.path.join(get_package_share_directory(package_name), 'world', 'simple.world')
+    world_file_path = os.path.join(get_package_share_directory(package_name), 'world', 'hills.world')
 
     # Include the Gazebo launch file, provided by the gazebo_ros package
     gazebo = IncludeLaunchDescription(
